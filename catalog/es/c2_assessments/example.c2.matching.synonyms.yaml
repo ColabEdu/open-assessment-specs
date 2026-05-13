@@ -1,0 +1,15 @@
+apiVersion: colabedu.ai/v1beta1
+kind: AssessmentItem
+metadata:
+  id: example.c2.matching.synonyms
+  title: "Ejemplo: Emparejamiento de Sinónimos"
+spec:
+  recipe_ref: global.c1.matching.v1
+  context:
+    description: "Encuentra el sinónimo correspondiente para cada palabra."
+  content:
+    widget_params:
+      taskId: "matching_synonyms_001"
+      instruction: "Haz clic en una palabra de la izquierda y luego en su sinónimo a la derecha."
+      listA: ["Feliz", "Rápido", "Grande", "Fácil"]
+      listB: ["Veloz", "Sencillo", "Contento", "Enorme"]

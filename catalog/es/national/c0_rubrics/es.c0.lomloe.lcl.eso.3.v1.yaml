@@ -1,0 +1,938 @@
+apiVersion: colabedu.ai/v1beta1
+kind: Rubric
+metadata:
+  name: es.c0.lomloe.lcl.eso.3.v1
+  displayName: Rúbrica LCL 3 ESO (LOMLOE)
+  description: 'Rúbricas de evaluación para Lengua Castellana y Literatura de 3 ESO
+    según la LOMLOE (fuente: Gobierno de Canarias).'
+  tags:
+  - es
+  - lomloe
+  - lcl
+  - eso
+  - 3 ESO
+  version: 1.0.0
+spec:
+  taxonomyRef: es.lomloe_competencias_clave.v1
+  subject: Lengua Castellana y Literatura
+  educationLevel: 3º ESO
+  gradingScale:
+    insuficiente:
+    - 1
+    - 4
+    suficiente_bien:
+    - 5
+    - 6
+    notable:
+    - 7
+    - 8
+    sobresaliente:
+    - 9
+    - 10
+  criteria:
+  - id: '1.2'
+    name: Criterio 1.2
+    description: Identificar y analizar prejuicios, estereotipos y usos discriminatorios
+      de la lengua, así como abusos de CCL5, CP2, CP3, CD1, CC1, CC2, boc-a-2025-107-2005
+      boc-a-2025-107-2005
+    levels:
+      insuficiente: Identifica y analiza de manera superficial prejuicios, usos discriminatorios
+        de la como abusos de poder a través misma, a partir de la interacción los
+        demás en diferentes contextos socioinstitucionales y aproximación a los lingüísticos
+        individuales y comprendiendo su papel en la sociedad con una actitud abierta
+        y colaborativa pero inconsistente y con implicación limitada y participando
+        en la decisiones o la resolución de conflictos para desarrollar ideas preconcebidas
+        en torno distribución geográfica del integrando la variedad lingüística su
+        desarrollo personal, con propósito de favorecer un uso eficaz sino también
+        ético del en el que el diálogo sea una herramienta para la construcción una
+        sociedad democrática igualitaria.
+      suficiente_bien: Identifica y analiza prejuicios, estereotipos y estereotipos
+        y usos discriminatorios lengua, así de la lengua, así como abusos de la poder
+        a través de la misma, a con de la interacción con los demás diferentes de
+        la socioinstitucionales y derechos aproximación a los derechos socioinstitucionales
+        colectivo, lingüísticos colectivos, comprendiendo su papel empática, en la
+        sociedad con una actitud de manera empática, abierta y colaborativa participando
+        en la toma de empática, toma de decisiones o la resolución de conflictos para
+        desarrollar un juicio o un juicio propio y respetuoso,, reconociendo a la
+        distribución geográfica del idioma, idioma, integrando la variedad lingüística
+        en su desarrollo personal, con el el propósito de favorecer un uso no su no
+        solo solo eficaz sino también ético lenguaje lenguaje, en el que el diálogo
+        una herramienta para la construcción en de de una sociedad democrática e e
+        igualitaria.
+      notable: Identifica y analiza con un n ivel significativo de detalle de estereotipos
+        y usos discriminatorios partir la lengua, así como abusos de en través de
+        la misma, a partir contextos interacción con los demás de la diferentes y
+        individuales y aproximación a los lingüísticos individuales y colectivos,
+        comprendiendo de forma activa su comprendiendo y papel en la sociedad con
+        una abierta y colaborativa y sociedad participando en la toma de decisiones
+        la resolución de conflictos para desarrollar un juicio propio y preconcebidas
+        en torno a la respetuoso, en distribución geográfica del integrando la variedad
+        lingüística desarrollo personal, con el integrando del propósito de favorecer
+        un uso sea eficaz sino también ético del el que el diálogo sea una eficaz
+        herramienta para la construcción de una sociedad democrática igualitaria.
+      sobresaliente: Identifica y analiza con un nivel alto prejuicios, de profundidad
+        prejuicios, de estereotipos y usos discriminatorios de poder a la lengua,
+        así como abusos de poder a de la través de la misma, a partir de la 22887
+        en interacción con los demás en contextos diferentes contextos de la socioinstitucionales
+        y de la derechos aproximación a los derechos lingüísticos individuales y colectivos,
+        de forma actitud comprometida su papel en la con una actitud empática, abierta
+        y colaborativa y participando en la toma de decisiones o en la resolución
+        de conflictos para reconociendo ideas idioma, preconcebidas en torno a la
+        en distribución geográfica del idioma, la variedad lingüística en no solo
+        su desarrollo personal, con el lenguaje propósito de favorecer un uso no solo
+        sino también ético del lenguaje en el que el diálogo sea una e herramienta
+        para la construcción de una sociedad democrática e igualitaria. 22888
+  - id: '2.1'
+    name: Criterio 2.1
+    description: Comprender, interpretar y explicar el sentido global del texto y
+      la relación entre sus partes; seleccionar, CCL2, CCL5, CP2, STEM1, CD1, boc-a-2025-107-2005
+      boc-a-2025-107-2005
+    levels:
+      insuficiente: Comprende de manera básica, interpreta con falta de claridad precisión
+        y explica de manera fragmentada e incoherente, el sentido global del texto
+        y la entre sus partes y selecciona, analiza, de manera superficial, información
+        más relevante y intención del emisor de textos multimodales, aplicando métodos
+        inductivos, deductivos metacognitivos o búsquedas en internet, atendiendo
+        fiabilidad y ejerciendo, con consciencia mínima, una digital activa, cívica
+        y integrándolos en un proceso de aprendizaje continuo para desarrollar su
+        conciencia crítica con actitud dialogante.
+      suficiente_bien: Comprende, interpreta y explica el Comprende o sentido global
+        del texto y la relación entre sus partes y selecciona, retiene y analiza la
+        información más manera relación relevante y la intención del retiene y de
+        textos orales o multimodales, la aplicando métodos la deductivos y metacognitivos
+        o información orales o realizando búsquedas en internet, atendiendo a criterios
+        de calidad, y actualidad y fiabilidad y realizando una ciudadanía digital
+        activa, a y reflexiva e integrándolos en un una desarrollar su conciencia
+        crítica con ciudadanía actitud dialogante. reflexiva e
+      notable: de manera compleja, Comprende interpreta de manera clara y fácilmente
+        entendible y explica de coherente, el sentido global manera emisor del texto
+        y la relación entre y selecciona, retiene y analiza, inductivos, nivel significativo
+        de más relevante y la nivel alto intención del emisor de textos multimodales,
+        aplicando métodos intención ejerciendo inductivos, deductivos cívica metacognitivos
+        o búsquedas en internet, atendiendo fiabilidad y ejerciendo, con alta consciencia,
+        una ciudadanía digital activa, cívica y reflexiva e y integrándolos en un
+        proceso de aprendizaje continuo para desarrollar su conciencia crítica con
+        actitud dialogante.
+      sobresaliente: con alta complejidad, interpreta de manera específica, concreta
+        y detallada y explica, de 22889 coherente y fuerte conexión sus partes entre
+        las partes, el sentido global del con un texto y la relación entre sus partes
+        y detalle, la selecciona, retiene y analiza, con un de profundidad, la orales
+        o información más relevante y la del emisor de textos orales o y multimodales,
+        aplicando métodos realizando inductivos, deductivos y a metacognitivos o realizando
+        criterios de calidad, actualidad y fiabilidad y ejerciendo, con muy alta plena
+        consciencia, una ciudadanía digital activa, cívica y reflexiva e integrándolos
+        en un proceso de aprendizaje continuo para desarrollar su conciencia crítica
+        con actitud dialogante. 22890
+  - id: '2.2'
+    name: Criterio 2.2
+    description: Analizar y valorar la forma y el contenido de textos orales, signados
+      y multimodales de cierta complejidad, CCL2, CCL5, CP2, CD2, CD3, boc-a-2025-107-2005
+    levels:
+      insuficiente: Analiza y valora de manera breve sin suficiente detalle la forma
+        contenido de textos orales, multimodales de complejidad, aplicando para ampliar
+        su repertorio individual e identificando de referencia interna así como eficacia
+        y el uso ético de los procedimientos empleados, comprendiendo, de superficial,
+        problemas esenciales y de actualidad, por al realizar autoevaluaciones de
+        su proceso de aprendizaje sin reflexión para construir opinión crítica sobre
+        la forma significado del mensaje.
+      suficiente_bien: y Analiza y valora la forma y el Analiza y el contenido de
+        textos orales, signados signados y y multimodales de cierta complejidad, aplicando
+        estrategias estrategias para ampliar su repertorio lingüístico individual
+        e mecanismos mecanismos de referencia interna, la así como, la eficacia y
+        el uso ético de los procedimientos comunicativos comunicativos empleados,
+        relacionando relacionando y comprendiendo problemas éticos manera esenciales
+        y de actualidad, al éticos que realiza lo que sencillas de su proceso de sencillas
+        aprendizaje para construir una lo hace opinión crítica sobre la forma y una
+        significado del mensaje. y el
+      notable: y valora con un grado Analiza y significativo de detalle cierta profundidad,
+        la forma y el de textos orales, signados y de lingüístico multimodales de
+        cierta identificando aplicando estrategias para repertorio lingüístico individual
+        e identificando referencia interna, así como y y el uso ético de los comunicativos
+        tiempo relacionando y comprendiendo con autoevaluaciones profundidad esenciales
+        y de actualidad, al tiempo que que realiza autoevaluaciones sencillas el de
+        su proceso de aprendizaje de forma reflexiva para construir opinión crítica
+        sobre la significado del mensaje.
+      sobresaliente: valora de manera amplia y y detallada la forma y el contenido
+        de contenido textos orales, signados y multimodales cierta complejidad, aplicando
+        complejidad, estrategias para ampliar su repertorio ampliar su lingüístico
+        individual e identificando mecanismos de referencia interna, así mecanismos
+        de como la eficacia y el uso ético de los la eficacia procedimientos comunicativos
+        22891 procedimientos empleados, relacionando y empleados, comprendiendo críticamente
+        y con profundidad problemas éticos problemas éticos esenciales y de actualidad,
+        al tiempo realiza autoevaluaciones sencillas de su proceso de aprendizaje
+        con una reflexión profunda para construir una una opinión crítica sobre la
+        forma y el forma y el significado del mensaje.
+  - id: '3.1'
+    name: Criterio 3.1
+    description: Producir textos orales y multimodales de cierta extensión y complejidad,
+      ajustándose a las convenciones CCL1, CCL3, STEM1, CD1, CD2, boc-a-2025-107-2005
+      boc-a-2025-107-2005
+    levels:
+      insuficiente: Produce textos orales y de cierta extensión y complejidad coherencia
+        y adecuación pero escasa corrección en diferentes contextos sociales, ajustándose
+        convenciones propias de los géneros discursivos, con atención a los expositivos
+        y argumentativos, características del español Canarias, utilizando de manera
+        escasos o insuficientes recursos solo de forma parcial los manipulación y
+        planificando las diferentes creación del texto, analizando soluciones con
+        una reflexión introduciendo cambios si fuera necesario ocasionalmente y técnicas
+        de autoevaluación de proceso de aprendizaje comunicarse de manera fluida informada
+        en diferentes contextos sociales, al tiempo que presenta y soluciones innovadoras,
+        sostenibles de manera ambigua.
+      suficiente_bien: multimodales Produce textos con multimodales de cierta extensión
+        con complejidad coherentes, correctos y adecuados a diferentes contextos a
+        las sociales, ajustándose diversos convenciones propias de los especial géneros
+        discursivos, con especial atención a los expositivos y atención a respetando
+        las argumentativos, de características del español eficaz Canarias, utilizando
+        de manera eficaz recursos verbales y no variados riesgos de manipulación y
+        desinformación, desinformación, planificando las diferentes fases de creación
+        del texto, las críticamente las soluciones obtenidas crítica e e introduciendo
+        cambios si necesario y aplicando técnicas de fuera aplicando autoevaluación
+        de su proceso de su aprendizaje para comunicarse de para manera fluida e informada
+        en e diferentes contextos sociales, al tiempo que presenta ideas y tiempo
+        ideas soluciones innovadoras, éticas éticas y sostenibles.
+      notable: orales y Produce textos orales y y de cierta extensión y gra n coherencia,
+        adecuación en diferentes contextos a las sociales, ajustándose diversos convenciones
+        propias de los géneros discursivos, con especial los expositivos y atención
+        a los respetando las argumentativos, de características del Canarias, utilizando
+        de manera y oportunos recursos abundantes evitando los riesgos de manipulación
+        fases de y desinformación, planificando analizando diferentes fases de creación
+        analizando críticamente las fuera obtenidas e introduciendo necesario y aplicando
+        técnicas de autoevaluación de su proceso aprendizaje para comunicarse de manera
+        fluida e informada en de diferentes contextos sociales, al que presenta ideas
+        y informada y soluciones innovadoras, éticas sostenibles de manera clara.
+      sobresaliente: multimodales Produce textos orales y multimodales complejidad,
+        con de cierta extensión y complejidad, con 22892 corrección y excelente coherencia,
+        corrección y adecuación en diferentes contextos a las sociales, ajustándose
+        a las diversos convenciones propias de los diversos géneros discursivos, con
+        especial expositivos y respetando las argumentativos, respetando las español
+        de características del español de eficaz Canarias, utilizando de manera eficaz
+        e idóneos recursos evitando significativamente los las riesgos de manipulación
+        y del texto, desinformación, planificando las soluciones diferentes fases
+        de creación del texto, mejoras si analizando críticamente las soluciones obtenidas
+        y reformulando el de procedimiento si fuera necesario y aplicando técnicas
+        de autoevaluación su proceso de aprendizaje para comunicarse de manera fluida
+        e en diferentes contextos y sociales, al tiempo que presenta ideas y soluciones
+        innovadoras, éticas y sostenibles de manera precisa. 22893
+  - id: '3.2'
+    name: Criterio 3.2
+    description: Participar de manera activa y adecuada en interacciones comunicativas
+      orales formales e informales, con CCL1, CCL5, CP2, CD2, CD3, CC2 boc-a-2025-107-2005
+    levels:
+      insuficiente: Participa de manera activa en interacciones comunicativas formales
+        e informales de manera obligada, incluyendo los de su entorno personal digital,
+        con de escucha activa y estrategias cooperación conversacional y lingüística
+        para reconocer comunicación oral como medio transmitir conocimientos e ideas
+        ejercer una ciudadanía activa, actitud democrática, respeto diversidad y compromiso
+        con la igualdad de género, la cohesión y el desarrollo sostenible, una implicación
+        limitada.
+      suficiente_bien: Participa de manera activa y Participa, orales adecuada en
+        comunicativas orales formales e comunicativas informales, incluyendo los de
+        su informales actitudes entorno personal digital, con de actitudes de escucha
+        activa y los de cortesía estrategias de la conversacional y cortesía para
+        para reconocer la comunicación oral y como medio para con conocimientos e
+        ideas y ejercer una por la ciudadanía activa, con actitud democrática, respeto
+        social diversidad y compromiso con la pero con igualdad de género, la cohesión
+        y social y el desarrollo sostenible.
+      notable: de manera activa y Participa de manera interacciones adecuada en orales
+        formales e formales e con interés personal, determinación entusiasmo y curiosidad,
+        incluyendo su entorno personal digital, con cooperación actitudes de escucha
+        activa lingüística estrategias de conversacional y cortesía lingüística transmitir
+        para reconocer la comunicación como medio conocimientos e ideas y ejercer
+        una por la ciudadanía activa, con democrática, respeto por la diversidad compromiso
+        con la igualdad de y el género, la cohesión social desarrollo sostenible.
+      sobresaliente: activa y adecuada interacciones en interacciones comunicativas
+        orales informales con pasión y incluyendo los de su entorno personal digital,
+        con actitudes de escucha activa y estrategias de y cooperación conversacional
+        y cortesía cooperación lingüística para reconocer la 22894 comunicación oral
+        como medio para oral transmitir conocimientos e ideas y para transmitir ejercer
+        una ciudadanía activa, con actitud democrática, respeto por la actitud diversidad
+        y compromiso con la igualdad de género, la cohesión social desarrollo sostenible.
+        y el
+  - id: '4.1'
+    name: Criterio 4.1
+    description: Comprender, interpretar y explicar el sentido global, la estructura,
+      el tipo de destinatario, el formato STEM1, CPSAA4 boc-a-2025-107-2005 boc-a-2025-107-2005
+    levels:
+      insuficiente: Comprende, interpreta y explica, manera superficial, el sentido
+        la estructura, el tipo de formato utilizado y la información más relevante
+        de textos escritos multimodales de cierta complejidad, identificando e interpretando
+        intención comunicativa, realizando inferencias necesarias y hipótesis, de
+        manera básica, reduce la posibilidad de entender diferentes propósitos de
+        lectura responsabilidad de su aprendizaje continuo, realizando autoevaluaciones
+        sencillas sobre su aprendizaje obtener conclusiones significativas.
+      suficiente_bien: de Comprende, interpreta y explica el global, sentido global,
+        la estructura, el destinatario, el de destinatario, el formato y la información
+        más relevante de o textos escritos o multimodales de cierta complejidad, identificando
+        e la interpretando la las comunicativa, planteando inferencias necesarias
+        y planteando comunicativa, lo que hipótesis para entender diferentes propósitos
+        de lectura que le permitan que le asumir de forma activa la entender continuo,
+        autoevaluaciones sencillas sobre su para aprendizaje para conclusiones significativas.
+      notable: Comprende, interpreta y explica, con tipo un nivel significativo de
+        detalle, utilizado sentido global, la estructura, destinatario, el formato
+        utilizado y la información más relevante de textos escritos o multimodales
+        de cierta intención complejidad, identificando realizando las interpretando
+        la inferencias necesarias y planteando hipótesis de manera compleja para diferentes
+        propósitos de entender realizando forma activa la responsabilidad de aprendizaje
+        continuo realizando, obtener autoevaluaciones sencillas sobre aprendizaje
+        para obtener conclusiones significativas.
+      sobresaliente: Comprende, interpreta y explica, con el un nivel alto de profundidad,
+        el 22895 el tipo de sentido global, la estructura, el tipo de destinatario,
+        el formato utilizado y la información más relevante de textos escritos o multimodales
+        de cierta e complejidad, identificando e intención interpretando la intención
+        realizando las comunicativa, realizando las inferencias necesarias y planteando
+        hipótesis, con alta complejidad, para diferentes propósitos de su forma activa
+        la responsabilidad de su aprendizaje continuo, realizando su autoevaluaciones
+        sencillas sobre su aprendizaje para obtener conclusiones significativas. 22896
+  - id: '4.2'
+    name: Criterio 4.2
+    description: Analizar y valorar la forma y el contenido de textos escritos y multimodales
+      de cierta complejidad, CCL2, CCL3, CCL5, CD1, CC3 boc-a-2025-107-2005
+    levels:
+      insuficiente: Analiza de manera superficial valora con una adecuación mínima
+        forma y el contenido de textos multimodales de cierta complejidad, determinando
+        si su contenido con las expectativas de certeza, veracidad y actualidad comprobando
+        eficacia de los lingüísticos utilizados, seleccionando y contrastando, acompañamiento,
+        procedente de diferentes fuentes, incluidas búsquedas en internet, desarrollando
+        juicios propios dificultad y escasa fundamentación para poner sus prácticas
+        al servicio del compromiso participación plena en la vida cívica.
+      suficiente_bien: y Analiza y valora la forma y el Analiza la contenido de textos
+        escritos y detalle escritos y multimodales de cierta complejidad, determinando
+        si su contenido cumple cumple con las expectativas de certeza, veracidad y
+        actualidad comprobando con la la eficacia de los procedimientos procedimientos
+        lingüísticos utilizados, localizando, localizando, seleccionando y contrastando,
+        con con acompañamiento puntual, información información procedente de diferentes
+        fuentes, incluidas búsquedas en internet, desarrollando juicios propios para
+        con poner sus prácticas comunicativas al servicio del compromiso activo y
+        la comunicativas participación plena en la vida activo y la cívica. social
+        y
+      notable: con un nivel significativo de Analiza y valora con alta adecuación
+        la y forma y el contenido de textos multimodales de cierta complejidad, determinando
+        si su contenido cumple las expectativas de certeza, con las veracidad y actualidad
+        comprobando eficacia de los lingüísticos utilizados, localizando, seleccionando
+        y contrastando, con creciente autonomía, información procedente de diferentes
+        fuentes, diferentes incluidas búsquedas en internet, en desarrollando juicios
+        propios con facilidad y adecuada fundamentación social y para poner sus prácticas
+        al servicio del compromiso participación plena en la vida cívica.
+      sobresaliente: de manera amplia y detallada valora con excelente adecuación
+        la escritos y forma y el contenido de textos escritos y multimodales de cierta
+        complejidad, determinando si su contenido cumple expectativas de certeza,
+        la veracidad y actualidad comprobando la procedimientos eficacia de los procedimientos
+        22897 lingüísticos utilizados, localizando, seleccionando y contrastando,
+        con autonomía, información procedente de fuentes, incluidas búsquedas internet,
+        desarrollando juicios propios con gran solven cia y fundamentación para poner
+        sus comunicativas prácticas comunicativas al servicio del activo y la compromiso
+        activo y la participación social y plena en la vida social y cívica.
+  - id: '5.1'
+    name: Criterio 5.1
+    description: Producir textos escritos y multimodales de cierta extensión y complejidad,
+      ajustándose a las convenciones CCL1, CCL3, CCL5, STEM1, CD2, boc-a-2025-107-2005
+      boc-a-2025-107-2005
+    levels:
+      insuficiente: Produce textos multimodales de cierta extensión complejidad coherentes,
+        adecuados pero con escasa corrección creatividad pudiendo hacer uso entorno
+        personal aprendizaje para crear contenidos digitales, con actitud democrática
+        adoptando un punto de vista crítico y personal a la par respetuoso con la
+        ajustándose a las convenciones propias de los diversos géneros discursivos,
+        con especial los expositivos y argumentativos, analizando la situación el
+        destinatario, su propósito y aplicando en sus producciones procedimientos
+        lingüísticos y de estilo con atención al español de Canarias, llevando a cabo
+        metacognitivos de retroalimentación para aprender de sus errores proceso de
+        conocimiento y obtener significativas para dar una eficaz y ética a comunicativas
+        concretas y para enriquecer los textos con la precisión léxica y ortográfica
+        y gramatical.
+      suficiente_bien: escritos y Produce textos escritos y multimodales de cierta
+        extensión complejidad coherentes, correctos y adecuados, pudiendo hacer uso
+        de su entorno personal digital de aprendizaje para crear contenidos digitales,
+        con actitud democrática y adoptando un punto de vista creativo, creativo,
+        crítico y personal a que que respetuoso con la propiedad crítico propiedad
+        intelectual, ajustándose a las géneros discursivos, con especial constante,
+        atención a los expositivos y convenciones atención a argumentativos, situación
+        comunicativa, destinatario, su propósito y y el canal y aplicando en sus producciones
+        procedimientos discursivos, lingüísticos y de estilo la debida atención al
+        español de Canarias, llevando a cabo procesos metacognitivos de retroalimentación
+        para aprender de sus errores en en el proceso de construcción construcción
+        del conocimiento y obtener conclusiones significativas para dar una respuesta
+        eficaz y ética a demandas demandas comunicativas concretas y enriquecer los
+        textos con la debida eficaz debida precisión léxica y corrección corrección
+        ortográfica y gramatical.
+      notable: y Produce textos y multimodales de cierta extensión y complejidad con
+        gran coherencia, de su correctos y adecuados y con digital de creatividad
+        pudiendo hacer entorno personal y aprendizaje para crear contenidos digitales,
+        con actitud democrática y la par adoptando un punto de vista y personal a
+        la par que crítico respetuoso con la propias de los diversos analizando la
+        géneros discursivos, comunicativa, el atención a los el canal argumentativos,
+        situación discursivos, destinatario, su con la debida aplicando en sus procedimientos
+        procesos lingüísticos y de atención al español de el llevando a del metacognitivos
+        de conclusiones para aprender de sus respuesta proceso de conocimiento y obtener
+        conclusiones para significativas para dar una y comunicativas concretas y
+        para enriquecer los textos precisión léxica ortográfica y gramatical.
+      sobresaliente: escritos y Produce textos escritos y 22898 y multimodales de
+        cierta extensión y complejidad excelentes, coherentes, correctos y adecuados
+        y con alta uso de su creatividad, pudiendo hacer uso de su digital de entorno
+        personal digital de aprendizaje para crear contenidos digitales, con actitud
+        democrática y creativo, adoptando un punto de vista creativo, y personal a
+        la par que propiedad respetuoso con la propiedad ajustándose a las determinación,
+        ajustándose a las convenciones propias de los diversos con especial géneros
+        discursivos, con especial expositivos y atención a los expositivos y analizando
+        la argumentativos, analizando la comunicativa, el situación comunicativa,
+        el propósito y el canal y destinatario, su propósito y el canal y producciones
+        aplicando en sus producciones discursivos, procedimientos discursivos, estilo
+        con la debida lingüísticos y de estilo con la debida Canarias, atención al
+        español de Canarias, cabo procesos llevando a cabo procesos retroalimentación
+        metacognitivos de retroalimentación errores en el para aprender de sus errores
+        en el construcción del proceso de construcción del 22899 conocimiento y obtener
+        conclusiones respuesta significativas para dar una respuesta ética a demandas
+        eficaz y ética a demandas comunicativas concretas y para con la debida enriquecer
+        los textos con la debida y corrección precisión léxica y corrección ortográfica
+        y gramatical.
+  - id: '6.1'
+    name: Criterio 6.1
+    description: Elaborar trabajos o proyectos de investigación de cierta complejidad
+      sobre diversos temas de interés CCL3, CD1, CD2, CD3, CD4, boc-a-2025-107-2005
+      boc-a-2025-107-2005
+    levels:
+      insuficiente: Elabora trabajos o proyectos investigación de cierta con descuidos,
+        defectos o significativos, sobre diversos de interés académico, personal social
+        que impliquen localizar, seleccionar y contrastar de progresivamente información
+        procedente de fuentes, entre ellas manera crítica, calibrando fiabilidad,
+        calidad y pertinencia función de los objetivos de organiza e integra en esquemas
+        propios de manera fragmentada incoherente para reelaborarla comunicarla con
+        falta de y personalidad, asumiendo uso crítico, seguro, sostenible saludable
+        de las tecnologías y respetando los principios propiedad intelectual, ejerciendo
+        ciudadanía digital activa y que propicie un proceso de aprendizaje continuo
+        para toda realizando retroalimentación y prototipos innovadores de tal que
+        aprenda de sus propios considerando la experiencia oportunidad para aprender
+      suficiente_bien: de Elabora trabajos o proyectos de Elabora complejidad, investigación
+        de cierta complejidad problemas sobre diversos temas de interés con temas
+        académico, personal o social que o impliquen localizar, seleccionar y contrastar
+        de manera progresivamente autónoma información procedente diferentes diferentes
+        fuentes, entre ellas internet, internet, seleccionando su calibrando su fiabilidad,
+        en pertinencia en función de los lectura; la objetivos de lectura; la integra
+        en esquemas propios para propios e reelaborarla y comunicarla de para y manera
+        creativa y creatividad asumiendo hábitos de uso crítico, hábitos de seguro,
+        sostenible y saludable y tecnologías digitales, respetando digitales principios
+        de propiedad de ejerciendo una ciudadanía digital una activa y reflexiva que
+        propicie reflexiva proceso de aprendizaje continuo toda la vida, realizando
+        procesos de toda la vida, retroalimentación y procesos de prototipos innovadores
+        de tal creando que aprenda de sus propios forma considerando la experiencia
+        como errores, una oportunidad para aprender. como una
+      notable: trabajos o proyectos de Elabora investigación de cierta un grado de
+        corrección destacable, sobre diversos temas interés académico, personal o
+        social manera que impliquen localizar, autónoma contrastar de manera progresivamente
+        de autónoma información procedente diferentes fuentes, entre ellas los seleccionando
+        los resultados calidad y fiabilidad, calidad y función de los objetivos de
+        lectura; organiza e organiza e integra en esquemas de manera clara y coherente
+        reelaborarla y comunicarla de gran personal, manera creativa y asumiendo hábitos
+        de uso crítico, de las seguro, sostenible y saludable los tecnologías digitales,
+        respetando intelectual, principios de propiedad ejerciendo una ciudadanía
+        digital un activa y reflexiva que propicie para proceso de aprendizaje continuo
+        la vida, realizando procesos de creando retroalimentación y forma prototipos
+        innovadores de errores, que aprenda de sus propios considerando la experiencia
+        como oportunidad para aprender.
+      sobresaliente: 22900 trabajos o proyectos de complejidad, investigación de cierta
+        complejidad, con corrección excepcion al, sobre de diversos temas de interés
+        académico, personal o social que impliquen seleccionar y localizar, seleccionar
+        y contrastar de manera progresivamente autónoma de información procedente
+        de diferentes internet, fuentes, entre ellas internet, de seleccionando los
+        resultados de pertinencia en fiabilidad, calidad y pertinencia en la función
+        de los objetivos de lectura; la organiza e integra en esquemas propios de
+        manera coherente y con conexión entre las partes para personal, reelaborarla
+        y comunicarla de manera creativa y personal, asumiendo de las hábitos de uso
+        crítico, seguro, los sostenible y saludable de las intelectual y tecnologías
+        digitales, respetando los principios de propiedad intelectual y un ejerciendo
+        una ciudadanía digital para activa y reflexiva que propicie un proceso de
+        aprendizaje continuo para creando toda la vida, realizando procesos de 22901
+        tal forma retroalimentación y creando errores, prototipos innovadores de tal
+        forma una que aprenda de sus propios errores, considerando la experiencia
+        como una oportunidad para aprender.
+  - id: '7.1'
+    name: Criterio 7.1
+    description: Leer de manera autónoma textos seleccionados en función de los propios
+      gustos, intereses y necesidades, CCL1, CCL4, CD3,                 CPSAA1, boc-a-2025-107-2005
+      boc-a-2025-107-2005
+    levels:
+      insuficiente: Lee de manera autónoma aunque forma obligada y con nula propia,
+        textos seleccionados función de los propios gustos, intereses y necesidades,
+        de literatura canaria, española universal, con la adecuada la literatura juvenil,
+        conociendo apreciando de manera limitada, patrimonio cultural y artístico
+        analizando las especificidades manifestaciones artísticas y más destacadas
+        y participa de progresivamente activa, ideas, opiniones, sentimientos emociones
+        y comprendiendo su en la sociedad con una actitud empática, abierta y colaborativa
+        dificultad en comunicativas favorezcan la reflexión gradual intercambio abierto
+        y creativo experiencia lectora para vida la lectura como fuente dejar constancia
+        de la creciente construcción de su propia lectora y apreciar el encuentro
+        y artístico.
+      suficiente_bien: de Lee de manera autónoma textos Lee iniciativa seleccionados
+        en función de los en propios gustos, intereses necesidades, de la literatura
+        canaria, la española y universal, con la necesidades, y adecuada atención
+        a la literatura atención a juvenil, conociendo y apreciando y patrimonio cultural
+        y artístico el analizando las especificidades e profundamente, y intencionalidades
+        de e manifestaciones culturales de manera progresivamente manera expresando
+        ideas, expresando sentimientos y emociones y comprendiendo su papel en la
+        papel sociedad con una actitud empática, abierta y colaborativa en situaciones
+        con comunicativas situaciones favorezcan la reflexión culturales que intercambio
+        abierto y creativo y el experiencia lectora para integrar de la su vida la
+        lectura como fuente integrar en su placer, dejar constancia de de placer,
+        creciente construcción de su identidad lectora y apreciar el identidad encuentro
+        cultural y artístico. cultural
+      notable: de manera autónoma, con interés Lee personal, entusiasmo y curiosidad,
+        y textos seleccionados en propios gustos, de la literatura canaria, española
+        y universal, con la el atención a la literatura y conociendo y el las cultural
+        y artístico y artísticas y especificidades e intencionalidades activa, culturales
+        más destacadas y opiniones, expresando ideas, y sentimientos y comprendiendo
+        su papel en la emociones sociedad con una actitud empática, abierta y colaborativa
+        activa, culturales que situaciones comunicativas gradual y el que favorezcan
+        la reflexión de la el intercambio abierto en experiencia lectora para de vida
+        la lectura como fuente de la dejar constancia de la creciente propia construcción
+        de su propia lectora y apreciar el encuentro y artístico.
+      sobresaliente: de manera autónoma, con pasión 22902 y determinación, textos
+        función de los seleccionados en función de los intereses y propios gustos,
+        intereses y necesidades, de la literatura canaria, adecuada española y universal,
+        con la adecuada juvenil, atención a la literatura juvenil, apreciando conociendo
+        y apreciando patrimonio críticamente y con profundidad, el analizando las
+        patrimonio cultural y artístico y de analizando las especificidades e participa
+        manifestaciones artísticas y culturales opiniones, más destacadas y participa
+        expresando emociones y ideas, opiniones, sentimientos y y comprendiendo su
+        papel en la sociedad con una actitud en empática, abierta y colaborativa culturales
+        comprometida, en situaciones gradual y comunicativas culturales que y creativo
+        de la favorezcan la reflexión gradual y el integrar en su intercambio abierto
+        y creativo de la placer, experiencia lectora para integrar en su vida la lectura
+        como fuente de placer, identidad dejar constancia de la creciente cultural
+        construcción de su propia identidad lectora y apreciar el encuentro cultural
+        22903 y artístico.
+  - id: '8.1'
+    name: Criterio 8.1
+    description: Explicar y argumentar con ayuda de pautas la interpretación de obras
+      o fragmentos representativos de la CCL1, CCL4, CC1, CCEC1, CCEC4 boc-a-2025-107-2005
+      boc-a-2025-107-2005
+    levels:
+      insuficiente: Explica y argumenta de manera básica, con ayuda de pautas oral,
+        escrita, signada o con coherencia y adecuación a diferentes contextos sociales
+        escasa corrección, la de obras o fragmentos representativos de la literatura
+        española y universal, apreciando patrimonio literario, de manera limitada,
+        como cauce privilegiado justificando progresivamente metalenguaje específico
+        vinculación del contenido y con el contexto sociohistórico literario de cada
+        obra, la autor o autora, el tema y los propios del género, con la constatar
+        la pervivencia de temáticos y formales en la así como atender a la configuración
+        la evolución de los géneros y subgéneros literarios, conociendo utilizando
+        con creatividad medios y soportes, así como plásticas, visuales, audiovisuales,
+        sonoras o corporales de forma superficial.
+      suficiente_bien: Explica y argumenta, con ayuda de Explica de forma pautas,
+        de forma oral, escrita, multimodal signada o multimodal los coherencia, corrección
+        y adecuación pero con a los diferentes contextos interpretación interpretación
+        de obras o fragmentos representativos de la literatura canaria, canaria, española
+        y universal, el apreciando el patrimonio literario como cauce privilegiado
+        de la patrimonio de experiencia individual y colectiva, con el metalenguaje
+        la vinculación del contenido y la forma con el contexto sociohistórico y y
+        literario de cada obra, la intención intención del del autor o autora, el
+        tema y rasgos rasgos propios del género, con la finalidad de finalidad de
+        constatar la universales de universales temáticos y literatura, en la literatura,
+        así como atender y configuración y la evolución de géneros y subgéneros literarios,
+        la y conociendo y utilizando con subgéneros diversos creatividad diversos
+        medios y técnicas soportes, así como técnicas visuales, audiovisuales, sonoras
+        o corporales.
+      notable: y argumenta de manera Explica y compleja, con ayuda de pautas, de con
+        forma oral, escrita, signada multimodal con gran coheren cia, multimodal sociales,
+        la corrección y adecuación a diferentes contextos sociales, interpretación
+        de obras o representativos de la literatura española y universal, apreciando
+        literario, profundamente, como cauce privilegiado de la específico la justificando
+        progresivamente la forma metalenguaje vinculación del contenido con el contexto
+        sociohistórico y los literario de cada obra, la autor o autora, el tema y
+        los pervivencia propios del género, con la formales constatar la pervivencia
+        de a la temáticos y formales en los así como atender a la configuración evolución
+        de los géneros y configuración literarios, conociendo y géneros utilizando
+        con creatividad diversos conociendo plásticas, medios y soportes, así como
+        plásticas, visuales, audiovisuales, sonoras o corporales más de manera consciente.
+      sobresaliente: argumenta con alta 22904 complejidad, con ayuda de pautas, o
+        de forma oral, escrita, signada o con excelente los coherencia, corrección
+        y adecuación la a los diferentes contextos sociales, la fragmentos interpretación
+        de obras o fragmentos canaria, representativos de la literatura canaria, el
+        española y universal, apreciando el patrimonio literario, críticamente y con
+        profundidad, como cauce con el individual y colectiva, justificando específico
+        la progresivamente con el metalenguaje y la forma específico la vinculación
+        del contenido y la forma con el contexto intención del sociohistórico y literario
+        de cada obra, rasgos la intención del autor o autora, el tema finalidad de
+        y los rasgos propios del género, con la universales finalidad de constatar
+        la pervivencia la literatura, de universales temáticos y formales en y la
+        literatura, así como atender a la y la evolución de los y subgéneros literarios,
+        y utilizando con técnicas creatividad diversos medios y soportes, así como
+        técnicas plásticas, 22905 complejas visuales, audiovisuales, sonoras o corporales.
+        de forma innovadora y autónoma.
+  - id: '8.2'
+    name: Criterio 8.2
+    description: Argumentar de manera progresivamente autónoma la conexión existente
+      entre los textos literarios, así CCL1, CCL4, CC1, CCEC1, CCEC2 boc-a-2025-107-2005
+      boc-a-2025-107-2005
+    levels:
+      insuficiente: Argumenta de progresivamente autónoma, modo breve y sin suficiente
+        de forma oral, escrita, signada multimodal con adecuación a diferentes contextos
+        sociales escasa corrección, la conexión existente entre los textos como con
+        otras manifestaciones artísticas y culturales, propia experiencia biográfica
+        conocimientos, relacionando comprendiendo ideas relativas dimensión social
+        y ciudadana propia identidad, respetando patrimonio cultural y artístico manera
+        limitada y participando ocasionalmente en su conservación cultural que conjugue
+        las obras literarias con el resto de las manifestaciones artísticas y las
+        posibilidades de disfrute literatura.
+      suficiente_bien: manera Argumenta de aunque de progresivamente autónoma de forma
+        detalle oral, escrita, signada o multimodal o con coherencia, corrección y
+        los adecuación a los diferentes contextos pero con sociales, la conexión existente
+        los textos literarios, así como con literarios, así otras manifestaciones
+        culturales,movilizando su propia movilizando su experiencia biográfica y sus
+        y sus conocimientos, y comprendiendo ideas relativas a la dimensión social
+        y ciudadana de de su propia identidad, respetando el el patrimonio cultural
+        y artístico y de participando de forma activa en conservación para gradualmente
+        un mapa cultural que resto de las manifestaciones conformar artísticas y acrecentar
+        acrecentar posibilidades de disfrute de la literatura.
+      notable: manera Argumenta de progresivamente autónoma y con grado significativo
+        de detalle profundidad de forma oral, escrita, oral, signada o multimodal
+        con gran con entre corrección y adecuación a diferentes contextos sociales,
+        la artísticas y conexión existente entre literarios, así como con otras otras
+        manifestaciones artísticas y relacionando y movilizando su propia a la biográfica
+        y sus conocimientos, su relacionando y comprendiendo ideas relativas a la
+        dimensión social y ciudadana de su propia identidad, su respetando conformar
+        patrimonio cultural y participando de forma activa en su gradualmente un mapa
+        gradualmente las cultural que conjugue las de la literarias con el resto manifestaciones
+        artísticas las posibilidades de literatura.
+      sobresaliente: manera Argumenta de manera un progresivamente autónoma y con
+        un y nivel alto de profundidad de forma escrita, signada o multimodal excelen
+        te, corrección y los adecuación a los diferentes contextos sociales, la conexión
+        existente entre los textos los textos literarios, así como con 22906 manifestaciones
+        artísticas y culturales, culturales, movilizando su propia experiencia experiencia
+        biográfica y sus conocimientos, relacionando y comprendiendo ideas relativas
+        a la dimensión social y ciudadana de su propia identidad, respetando el profundamente
+        el patrimonio cultural y artístico artístico y críticamente y con profundidad
+        y participando de forma activa en su un mapa cultural que obras conjugue las
+        obras literarias con el de las resto de las manifestaciones artísticas, y
+        acrecentar y acrecentar las posibilidades de disfrute de la disfrute de la
+        literatura. 22907
+  - id: '8.3'
+    name: Criterio 8.3
+    description: Crear textos con intención literaria y sentido estético, en los que
+      se movilicen los conocimientos literarios CCL1, CD2, CPSAA4,                    CCEC2,
+      boc-a-2025-107-2005 boc-a-2025-107-2005
+    levels:
+      insuficiente: Crea textos con intención sentido estético de manera poco original
+        o rutinaria, utilizando, también, su entorno personal de aprendizaje para
+        comenzar a construir conocimiento y crear contenidos digitales, buscando fiables
+        para validar, sustentar contrastar la información pero una actitud crítica
+        sólida en se movilicen los conocimientos literarios adquiridos y la lectora,
+        disfrutando, reconociendo analizando las especificidades intencionalidades
+        de manifestaciones artísticas y utilizando técnicas plásticas, audiovisuales,
+        sonoras o individual como colaborativa, propósito de que la escritura sea
+        entendida como una forma comunicación que permite compartir ideas, sentimientos
+        y emociones, como construir vínculos personales partir de la expresión artística,
+        forma que comprende parcialmente su papel en la sociedad con una actitud empática,
+        abierta colaborativa.
+      suficiente_bien: literaria y Crea textos con intención literaria sentido estético,
+        utilizando, también, su entorno personal digital de moderada, digital aprendizaje
+        para comenzar a entorno construir conocimiento y crear aprendizaje contenidos
+        digitales, fuentes fuentes fiables para validar, y y contrastar la información
+        en los sin que se movilicen los conocimientos los que literarios adquiridos
+        y la experiencia lectora, disfrutando, reconociendo y experiencia analizando
+        las especificidades e y intencionalidades de e manifestaciones las culturales,
+        utilizando culturales, plásticas, visuales, audiovisuales, visuales, sonoras
+        o corporales, tanto de corporales de individual como colaborativa, con con
+        el sea entendida como una forma de creativa comunicación que permite compartir
+        de ideas, sentimientos y emociones, así como como construir vínculos personales
+        a así partir de la expresión artística, a forma que comprende su papel en
+        la de tal sociedad con una actitud empática, abierta y colaborativa. y
+      notable: y Crea textos con intención literaria sentido estético con creatividad
+        sentido utilizando, también, su creatividad, personal para comenzar a construir
+        aprendizaje buscando conocimiento y crear contenidos sustentar digitales,
+        buscando fuentes interés para validar, sustentar y contrastar la información
+        en los que movilicen los conocimientos adquiridos y la experiencia lectora,
+        los disfrutando, las analizando las especificidades artísticas y intencionalidades
+        técnicas manifestaciones artísticas y con progresiva autonomía utilizando
+        forma técnicas plásticas, el audiovisuales, sonoras o corporales, colaborativa,
+        con el propósito de que la escritura creativa sea entendida una forma de comunicación
+        que sea permite compartir ideas, sentimientos de tal y emociones, así como
+        construir vínculos personales a partir de la expresión artística, de tal forma
+        comprende su papel en la sociedad con una actitud empática, abierta colaborativa.
+      sobresaliente: y Crea textos con intención literaria y estético con gran utilizando,
+        también, su digital de entorno personal digital de para comenzar a construir
+        conocimiento y crear contenidos fiables con digitales, buscando fuentes fiables
+        con determinación y gran entusiasmo 22908 se para validar, sustentar y contrastar
+        la literarios información en los que se movilicen conocimientos literarios
+        reconociendo y adquiridos y la experiencia lectora, e disfrutando, reconociendo
+        y de las analizando las especificidades e culturales intencionalidades de
+        las manifestaciones artísticas y culturales visuales, con autonomía, utilizando
+        técnicas plásticas, visuales, audiovisuales, individual como colaborativa,
+        con el propósito de que la escritura creativa entendida como una forma de
+        comunicación que permite compartir ideas, sentimientos y emociones, así como
+        construir vínculos personales a que partir de la expresión artística, de tal
+        forma que comprende su papel en la y sociedad con una actitud empática, abierta
+        y colaborativa. 22909
+  - id: '9.1'
+    name: Criterio 9.1
+    description: Analizar la interrelación entre el propósito comunicativo y las elecciones
+      lingüísticas del emisor, así como CCL1, CCL2, CP2, CPSAA5 boc-a-2025-107-2005
+      boc-a-2025-107-2005
+    levels:
+      insuficiente: Analiza de manera básica de oral, escrita, signada o con coherencia
+        y adecuación escasa corrección la interrelación entre el propósito comunicativo
+        elecciones lingüísticas del como sus efectos en el receptor, haciendo uso
+        del conocimiento explícito de la lengua, con razonamiento inductivo a partir
+        variedades dialectales y las del centro, y tomando como Canarias, aplicando
+        con estrategias para realizar entre distintas lenguas, así metalenguaje específico
+        desarrollar la conciencia siendo capaz de aprender de errores en el proceso
+        de del conocimiento de superficial.
+      suficiente_bien: forma Analiza de forma oral, escrita, multimodal signada o
+        multimodal pero con coherencia, corrección y adecuación la interrelación entre
+        el propósito y las comunicativo y las elecciones emisor, así lingüísticas
+        del emisor, así efectos en el receptor, haciendo uso del conocimiento explícito
+        de la efectos el debido lengua, con el debido razonamiento de las inductivo
+        a partir de las lenguas dialectales y las lenguas del referencia tomando como
+        referencia las limitaciones Canarias, aplicando estrategias transferencias
+        realizar transferencias entre como del lenguas como forma de ampliar para
+        repertorio lingüístico lingüística, como del metalenguaje específico sus para
+        desarrollar la conciencia para construcción lingüística, siendo capaz de manera
+        de sus errores en el proceso construcción del conocimiento.
+      notable: Analiza de manera compleja de Analiza con forma oral, escrita, multimodal
+        con gran coherencia, corrección y interrelación entre el propósito como sus
+        comunicativo y las lingüísticas del emisor, así en el receptor, haciendo uso
+        del conocimiento explícito variedades lengua, con el debido centro, y inductivo
+        a partir de las dialectales y las lenguas del centro, para características
+        distintas Canarias, aplicando su diversas y variadas para realizar individual,
+        así transferencias entre así como del metalenguaje desarrollar aprender lingüística,
+        siendo capaz de de sus errores en el proceso construcción del profundidad.
+      sobresaliente: con gran complejidad de signada o forma oral, escrita, signada
+        o 22910 multimodal con excelente coherencia, adecuación la corrección y adecuación
+        la interrelación entre el propósito elecciones comunicativo y las elecciones
+        como sus lingüísticas del emisor, así como sus efectos en el receptor, haciendo
+        uso de la del conocimiento explícito de la razonamiento lengua, con el debido
+        razonamiento variedades inductivo a partir de las variedades y dialectales
+        y las lenguas del centro, y del español de características del español de
+        estrategias Canarias, aplicando estrategias complejas para realizar transferencias
+        distintas lenguas, entre distintas lenguas, así como del específico metalenguaje
+        específico para la conciencia desarrollar la conciencia lingüística, de aprender
+        siendo capaz de aprender de sus de errores en el proceso de construcción conocimiento
+        con del conocimiento con significativa profundidad. 22911
+  - id: '9.2'
+    name: Criterio 9.2
+    description: Formular generalizaciones sobre aspectos del funcionamiento de la
+      lengua para aumentar su repertorio CCL1, CCL2, CP2, STEM1, STEM2, boc-a-2025-107-2005
+      boc-a-2025-107-2005
+    levels:
+      insuficiente: Formula generalizaciones con claridad y precisión sobre del funcionamiento
+        de la lengua debido razonamiento planteándose preguntas y a comprobar comprendiendo,
+        valorando con pensamiento emergente pero con dificultad orales, escritos,
+        signados multimodales para aumentar su repertorio lingüístico, mejorar destrezas
+        de recepción crítica analizar las distintas fases construcción del conocimiento
+        el sistema de la lengua y su comunicación, llevando a cabo procesos metacognitivos
+        retroalimentación muy superficiales posibilidad de aprender de sus e introducir
+        cambios procedimiento, si fuera
+      suficiente_bien: falta de Formula generalizaciones sobre aspectos aspectos del
+        funcionamiento de la con el lengua con el debido razonamiento inductivo, inductivo,
+        planteándose preguntas comenzando comprobando hipótesis, comprendiendo, interpretando
+        interpretando y valorando con pensamiento crítico emergente textos orales,
+        escritos, textos signados o multimodales para o aumentar su repertorio mejorar
+        las destrezas de recepción aumentar las crítica y analizar las distintas y
+        de construcción del conocimiento crítica de sobre el sistema de la lengua
+        y su sobre uso en la comunicación, llevando a uso en la cabo procesos metacognitivos
+        de retroalimentación para aprender de procesos de sus errores e introduciendo
+        en el procedimiento, si fuera para errores procedimiento, si fuera en el necesario.
+      notable: Formula generalizaciones de manera clara y fácilmente entendible sobre
+        aspectos del funcionamiento de y lengua con el debido hipótesis, inductivo,
+        planteándose y comprobando crítico comprendiendo, valorando con pensamiento
+        crítico emergente textos orales, escritos, lingüístico, signados o multimodales
+        para su repertorio lingüístico, fases mejorar las destrezas de y analizar
+        las distintas fases construcción del conocimiento sobre el sistema de la lengua
+        y su uso comunicación, llevando a cabo cambios retroalimentación con aprender
+        de sus errores e profundidad necesario. procedimiento,
+      sobresaliente: Formula generalizaciones de manera específica, concreta y detallada
+        la sobre aspectos del funcionamiento de razonamiento la lengua con el debido
+        razonamiento preguntas y inductivo, planteándose preguntas y hipótesis, comprobando
+        hipótesis, interpretando y comprendiendo, interpretando y valorando con pensamiento
+        crítico emergente textos orales, escritos, 22912 signados o multimodales para
+        aumentar su repertorio lingüístico, recepción mejorar las destrezas de recepción
+        de crítica y analizar las distintas fases de construcción del conocimiento
+        sobre en la el sistema de la lengua y su uso en la comunicación, llevando
+        a cabo metacognitivos de procesos metacognitivos de profundidad retroalimentación
+        con significativa para aprender de sus si fuera necesario. 22913
+  - id: '9.3'
+    name: Criterio 9.3
+    description: Revisar los textos propios de manera progresivamente autónoma y hacer
+      propuestas de mejora, CCL1, CCL2, CP2, CPSAA5 boc-a-2025-107-2005
+    levels:
+      insuficiente: Revisa con una consciencia los textos propios de manera progresivamente
+        autónoma y hace propuestas de mejora de manera superficial, llevando a cabo
+        metacognitivos de retroalimentación para aprender de sus errores y construir
+        conocimiento, analizando cambios a partir de la reflexión metalingüística
+        con el metalenguaje específico e identifica de forma confusa y con total inseguridad
+        subsana con escasos o insuficientes recursos los problemas de lectora utilizando
+        los conocimientos explícitos de la lengua y su obstaculiza que pueda mejorar
+        destrezas de producción oral y
+      suficiente_bien: mínima Revisa los textos propios de manera progresivamente
+        autónoma y hace propios de propuestas de mejora, llevando a cabo procesos
+        metacognitivos procesos retroalimentación para aprender errores y para construir
+        conocimiento, para analizando los cambios a partir de los reflexión metalingüística
+        con el metalenguaje específico e identifica y subsana los problemas de comprensión
+        lectora utilizando los conocimientos y explícitos de la lengua y su uso para
+        mejorar las destrezas de producción comprensión oral y escrita. uso lo que
+        las escrita.
+      notable: Revisa con alta consciencia los textos manera progresivamente consciencia
+        autónoma y hace propuestas de mejora de con un nivel significativo de de sus
+        llevando a cabo metacognitivos de retroalimentación la para aprender de sus
+        errores y construir conocimiento, analizando cambios a partir de la reflexión
+        metalingüística con el metalenguaje específico e identifica de manera segura
+        y confiada y subsana con recursos variados y oportunos los problemas de comprensión
+        lectora utilizando los conocimientos de la lengua y su uso para destrezas
+        de producción oral
+      sobresaliente: Revisa con muy alta y plena los textos propios de manera progresivamente
+        autónoma y detalle, hace propuestas de mejora con un nivel procesos alto de
+        profundidad, llevando a cabo procesos metacognitivos de para retroalimentación
+        para aprender de sus los errores y para construir conocimiento, 22914 analizando
+        los cambios a partir de la reflexión metalingüística con el metalenguaje específico
+        e identifica de manera segura y con plena confianza y subsana con recursos
+        abundantes e idóneos los problemas de comprensión explícitos lectora utilizando
+        los conocimientos mejorar las explícitos de la lengua y su uso para y escrita.
+        mejorar las destrezas de producción oral y escrita.
+  - id: '10.1'
+    name: Criterio 10.1
+    description: Utilizar estrategias comunicativas para la resolución dialogada de
+      los conflictos y la búsqueda de CCL1, CCL5, CP3, CPSAA3, CC2, boc-a-2025-107-2005
+      boc-a-2025-107-2005
+    levels:
+      insuficiente: Utiliza estrategias comunicativas manera ocasional e impredecible
+        para la resolución dialogada conflictos y la búsqueda de en diferentes contextos
+        del personal, educativo y social, actitud dialogante, crítica y respetuosa,
+        así como considerada con la diversidad lingüística y cultural, de tal muestra
+        dificultad para de forma activa las perspectivas experiencias de las demás
+        valores propios y ajenos, y juicios propios para afrontar controversia con
+        actitud respeto por la diversidad y compromiso con la igualdad de género,
+        la cohesión social, desarrollo sostenible y la la ciudadanía mundial, potenciando
+        uso de la comunicación como para prevenir cualquier tipo violencia.
+      suficiente_bien: de Utiliza estrategias comunicativas para la resolución dialogada
+        de los de los conflictos y la búsqueda de resolución consensos, consensos,
+        en diferentes contextos ámbito del ámbito personal, educativo y con social,
+        con actitud dialogante, constructiva, constructiva, crítica y como considerada
+        con la diversidad crítica lingüística y cultural, de tal forma forma que que
+        comprende de forma activa comprender perspectivas y las experiencias de y
+        las demás personas, personas y reflexivamente los valores propios desarrollar
+        propios para afrontar la la con actitud democrática, respeto por democrática,
+        la diversidad y compromiso con igualdad de género, la cohesión diversidad
+        social, el desarrollo sostenible y la el búsqueda de la ciudadanía mundial,
+        el búsqueda de potenciando el uso el comunicación como medio para el medio
+        prevenir cualquier tipo de violencia. de
+      notable: Utiliza estrategias comunicativas manera regular y constante para la
+        dialogada de los conflictos y la búsqueda de consensos, en diferentes contextos
+        del ámbito en personal, educativo y social, con personal, respetuosa, así
+        actitud dialogante, y respetuosa, así como crítica considerada con la diversidad
+        considerada las lingüística y cultural, de tal las comprende analizando perspectivas
+        y las y demás personas, controversia ajenos, y desarrollando para afrontar
+        la controversia con la actitud democrática, respeto por y compromiso con la
+        respeto por la igualdad de género, la cohesión social, desarrollo sostenible
+        y la búsqueda de la de la ciudadanía mundial, uso de la comunicación como
+        la medio para prevenir cualquier tipo violencia.
+      sobresaliente: de Utiliza estrategias comunicativas con máxima constancia y
+        determinación 22915 para la resolución dialogada de los conflictos y la búsqueda
+        de consensos, diferentes contextos del ámbito educativo y social, con constructiva,
+        actitud dialogante, constructiva, y respetuosa, así como con la diversidad
+        forma que lingüística y cultural, de tal forma que proactivamente las comprende
+        de forma activa y con experiencias de las facilidad las perspectivas y las
+        analizando experiencias de las demás personas, juicios propios propios y ajenos,
+        y desarrollando juicios propios para afrontar la la controversia con actitud
+        democrática, diversidad y compromiso con la igualdad de género, la cohesión
+        social, el potenciando desarrollo sostenible y la búsqueda de ciudadanía mundial,
+        potenciando el de uso de la comunicación como medio para prevenir cualquier
+        tipo de violencia. 22916
+  - id: '10.2'
+    name: Criterio 10.2
+    description: Reconocer y valorar la capacidad del lenguaje como herramienta para
+      la comunicación positiva en CCL1, CCL5, CD3, CPSAA3, CC1 boc-a-2025-107-2005
+    levels:
+      insuficiente: Reconoce de manera superficial valora, pero de manera obligada
+        con nula iniciativa propia, la capacidad del lenguaje herramienta para la
+        comunicación positiva en contextos diversos, incluidos los virtuales, manejando
+        manera responsable sus acciones, presencia y visibilidad en la evitando cualquier
+        uso y demostrando pero con frecuencia respeto por las empatía, equidad y constructivo
+        en la interacción demás en cualquier contexto, fin de incorporar las posibilidades
+        ofrece el lenguaje en el desarrollo individual y social de las personas. 1.
+        Describir y apreciar la alumnado y la realidad plurilingüe de sus lenguas
+        y las características reflexión interlingüística, diversidad como fuente de
+        riqueza
+      suficiente_bien: y Reconoce y valora la capacidad del o lenguaje como herramienta
+        para la de comunicación positiva en contextos personal, como diversos, incluidos
+        los virtuales, manejando de manera responsable herramienta sus acciones, presencia
+        y visibilidad de en la red, evitando cualquier uso discriminatorio y red,
+        respeto por las normas, empatía, discriminatorio equidad y espíritu constructivo
+        poca interacción con los demás en y normas, cualquier contexto, con el fin
+        de por espíritu incorporar las posibilidades con los ofrece el lenguaje en
+        el desarrollo con el individual y social de las personas. que diversidad lingüística
+        del mundo a partir del y pluricultural de España, analizando de las principales
+        variedades para combatir los estereotipos y prejuicios cultural.
+      notable: Reconoce con un nivel significativo detalle y valora con interés profundidad
+        entusiasmo y curiosidad la capacidad del lenguaje para la comunicación comunicación
+        positiva en contextos diversos, incluidos los virtuales, manejando demostrando
+        manera responsable sus acciones, presencia y visibilidad en la red, red, en
+        la evitando cualquier uso demostrando habitualmente respeto las normas, empatía,
+        equidad y empatía, que espíritu constructivo en la con los demás en cualquier
+        con el fin de incorporar las fin posibilidades que ofrece el en el desarrollo
+        individual y las personas. reconocimiento de las lenguas del el origen y desarrollo
+        sociohistórico dialectales del español, para favorecer lingüísticos y para
+        valorar dicha
+      sobresaliente: Reconoce con un n ivel alto de y valora con pasión y determinación
+        la capacidad del como lenguaje como herramienta para la positiva en contextos
+        diversos, incluidos los virtuales, de manejando de manera responsable sus
+        acciones, presencia y visibilidad en la evitando cualquier uso 22917 discriminatorio
+        discriminatorio y demostrando siempre respeto por las normas, equidad y espíritu
+        interacción constructivo en la interacción con los contexto, demás en cualquier
+        contexto, con el de incorporar las posibilidades que lenguaje ofrece el lenguaje
+        en el desarrollo social de individual y social de las personas. CCL1, CCL3,
+        CCL5, CP2, CP3, CD1, CC1, CC2, CC3, CCEC1, la CCEC3
+  - id: '1.1'
+    name: Criterio 1.1
+    description: Reconocer, valorar y respetar la diversidad lingüística de España,
+      con especial atención a la variedad CCL1, CCL3,              CP2,   CP3,   CD1,
+      boc-a-2025-107-2005 boc-a-2025-107-2005
+    levels:
+      insuficiente: Reconoce con falta de precisión valora de manera obligada o nula
+        iniciativa propia y respeta forma ocasional e impredecible diversidad lingüística
+        de que limita que la integre en desarrollo personal para cohesión social,
+        con especial a la variedad dialectal canaria, identificando de manera autónoma
+        características que corresponden variedad de registro, variedad de búsquedas
+        en internet, con dificultad la fiabilidad, parcialmente los manipulación y
+        seleccionando resultados sin una actitud suficiente, en manifestaciones escritas,
+        signadas y multimodales, teniendo en cuenta los diferentes contextos sociales
+        para ampliar repertorio lingüístico individual adoptar una actitud de hacia
+        el español de Canarias variedad de prestigio de la lengua española y fuente
+        de riqueza lingüística y cultural, implicándose superficialmente en su conservación.
+      suficiente_bien: ', Reconoce, valora y respeta la con diversidad lingüística
+        de España, con de integrándola en su desarrollo la personal para fomentar
+        la cohesión España, lo social con especial atención a su variedad dialectal
+        fomentar la identificando de manera autónoma atención las características
+        que a una variedad de registro, variedad las social o variedad geográfica,
+        a una a través de búsquedas en social o evaluando la fiabilidad, evaluando
+        seleccionando los resultados de evitando manera crítica en manifestaciones
+        riesgos de orales, escritas, signadas los multimodales, teniendo en cuenta
+        los crítica diferentes contextos sociales para orales, ampliar su repertorio
+        lingüístico individual y adoptar una actitud legitimación hacia el español
+        de su Canarias como variedad de prestigio y de la lengua española y fuente
+        legitimación riqueza lingüística y cultural, como implicándose en su conservación.'
+      notable: Reconoce de manera clara, valora Reconoce interés personal, entusiasmo
+        y curiosidad y respeta de forma respeta regular y constante la diversidad
+        la lingüística de España, integrándola canaria, su desarrollo personal la
+        cohesión social con especial corresponden atención a la variedad canaria,
+        identificando de manera incluso autónoma las características internet, corresponden
+        a una variedad evitando los registro, variedad social búsquedas en internet,
+        evaluando profundamente eficazmente la fiabilidad, y los riesgos de manipulación
+        y seleccionando los resultados de manera crítica y confiada en plena manifestaciones
+        orales, de signadas y multimodales, teniendo cuenta los diferentes contextos
+        sociales para ampliar su repertorio de lingüístico individual y adoptar actitud
+        de legitimación hacia el español de Canarias como prestigio de la lengua española
+        fuente de riqueza lingüística cultural, implicándose de forma plena y activa
+        en su conservación.
+      sobresaliente: de manera específica, valora con pasión y determinación y 22918
+        con máxima constancia la diversidad lingüística de España, en integrándola
+        en su desarrollo personal para fomentar para fomentar la cohesión social con
+        especial atención a la variedad dialectal dialectal canaria, identificando
+        de manera autónoma las características que que corresponden a una variedad
+        de de registro, variedad social o variedad o variedad geográfica, incluso
+        a través de la fiabilidad, eliminando reconociendo y limitando los riesgos
+        de manipulación y seleccionando los resultados de manera crítica y con confianza
+        en manifestaciones escritas, orales, escritas, signadas y en multimodales,
+        teniendo en cuenta los diferentes contextos sociales para ampliar su repertorio
+        lingüístico una individual y adoptar una actitud de legitimación hacia el
+        español de variedad de Canarias como variedad de prestigio y de la lengua
+        española y fuente de y riqueza lingüística y cultural, implicándose de forma
+        plena y 22919 comprometida en su conservación.

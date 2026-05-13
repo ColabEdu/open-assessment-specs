@@ -1,0 +1,961 @@
+apiVersion: colabedu.ai/v1beta1
+kind: Rubric
+metadata:
+  name: es.c0.lomloe.lcl.bach.2.v1
+  displayName: Rúbrica LCL 2 Bachillerato (LOMLOE)
+  description: 'Rúbricas de evaluación para Lengua Castellana y Literatura de 2 Bachillerato
+    según la LOMLOE (fuente: Gobierno de Canarias).'
+  tags:
+  - es
+  - lomloe
+  - lcl
+  - bach
+  - 2 Bachillerato
+  version: 1.0.0
+spec:
+  taxonomyRef: es.lomloe_competencias_clave.v1
+  subject: Lengua Castellana y Literatura
+  educationLevel: 2º Bachillerato
+  gradingScale:
+    insuficiente:
+    - 1
+    - 4
+    suficiente_bien:
+    - 5
+    - 6
+    notable:
+    - 7
+    - 8
+    sobresaliente:
+    - 9
+    - 10
+  criteria:
+  - id: '1'
+    name: Criterio 1
+    description: Producir textos expositivos y argumentativos orales no espontáneos
+      en contextos de aprendizaje formal (académicos, profesionales y empresariales)
+      sobre un tema controvertido, contraponiendo puntos de vista enfrentados, defendiendo
+      una opinión personal con argumentos convincentes que le permita afianzar la
+      confianza en uno mismo y el sentido crítico, y siguiendo un proceso de planificación,
+      documentación, evaluación y mejora con el apoyo de las Tecnologías de la Información
+      y la Comunicación; así como sintetizar el contenido de este tipo de textos,
+      entendiendo la importancia de la escucha activa como un medio de adquisición
+      de conocimientos y como vehículo que le permita participar de forma responsable
+      y asertiva en cualquier tipo de interacción social. Con este criterio se pretende
+      evaluar la capacidad del alumnado para planificar, producir y evaluar producciones
+      orales expositivas y argumentativas de forma individual o en grupo, en contextos
+      académicos (entrevistas culturales, disertaciones científicas…), profesionales
+      (conferencias, mesas redondas …) y empresariales (charlas, videoconferencias
+      …) sobre un tema polémico, analizando posturas enfrentadas y defendiendo una
+      opinión propia mediante argumentos convincentes. Para ello,        consulta
+      fuentes de información diversa para recopilar información y apoyos audiovisuales
+      o gráficos y sigue un guión previamente establecido para estructurar la información
+      obtenida, utilizando correctamente los procedimientos de cita. Además, se expresa
+      con claridad, precisión y corrección, adaptando su actuación verbal y no verbal
+      (entonación, tono, timbre velocidad, gestos…) a las condiciones de la situación
+      comunicativa (tema, ámbito discursivo, tipo de destinatario…), empleando los
+      recursos expresivos propios     del     registro    formal.     Asimismo comprobaremos
+      que el alumnado desarrolla la escucha resumir por escrito este tipo de textos.
+      Por último, el alumno o alumna evalúa sus producciones y las de sus compañeros,
+      detectando las dificultades estructurales y expresivas y diseñando estrategias
+      para mejorar sus prácticas orales y progresar en el aprendizaje autónomo.
+    levels:
+      insuficiente: 'Planifica y produce con poca pertinencia y autonomía textos orales
+        expositivos y argumentativos sobre un tema polémico, en los que analiza de
+        manera superficial posturas enfrentadas, dificultades para defender una opinión
+        propia argumentos convincentes. En estas producciones rara vez y sin ser consciente
+        de la importancia de estos aspectos: se expresa con claridad, precisión y
+        corrección; respeta las características gramaticales y la ortofonía de la
+        norma culta del español de Canarias; adapta los elementos verbales y no verbales
+        a las condiciones de la situación comunicativa; y emplea un léxico preciso
+        y especializado, así como los recursos expresivos propios del registro formal.
+        Para ello, consulta con poca destreza y acierto fuentes de información diversa,
+        utiliza apoyos audiovisuales o gráficos, y sigue un guion previamente establecido
+        para estructurar la información aplicando incorrectamente los procedimientos
+        de Además, dificultades para comprender este tipo de textos, de manera que
+        los resume aunque de manera fragmentada y con discriminar la información relevante,
+        y con imprecisiones importantes: reconoce las distintas formas organización
+        del discurso y analiza los recursos verbales no verbales empleados por el
+        emisor, valorándolos función de los elementos de la situación comunicativa.
+        Por último, a partir de la práctica habitual de la evaluación y la coevaluación,
+        mejora manera superficial tanto sus producciones como las ajenas.'
+      suficiente_bien: 'Planifica y produce con cierta pertinencia y autonomía textos
+        orales expositivos y argumentativos sobre un tema polémico, en los que analiza,
+        aunque de manera general, manifestando posturas enfrentadas, defendiendo una
+        opinión mediante propia mediante argumentos relativamente convincentes. En
+        estas producciones frecuentemente y con cierta conciencia de la importancia
+        de estos aspectos: se expresa con claridad, precisión y corrección; respeta
+        características gramaticales y la ortofonía de la norma culta del español
+        de Canarias; adapta los elementos verbales y no verbales a las condiciones
+        de la situación comunicativa; y emplea un léxico preciso y especializado,
+        así como los recursos expresivos propios del registro formal. Para todo ello,
+        con cierta destreza y acierto: consulta fuentes información diversa, utiliza
+        apoyos audiovisuales gráficos, y sigue un guion obtenida, previamente establecido
+        para estructurar la información cita. obtenida, aplicando demuestra correctamente
+        procedimientos de Además, demuestra que comprende este tipo de textos, de
+        manera que elabora algunos fallos en los que respecta a la cohesión y no discriminando
+        siempre la de información relevante, y con algunas imprecisiones poco y importantes:
+        reconoce las distintas formas de en organización del discurso y analiza los
+        recursos verbales y emisor, no verbales empleados por el emisor, valorándolos
+        en función de los elementos de la de situación comunicativa. Por último, a
+        partir de la práctica habitual de la evaluación y la coevaluación, mejora
+        con cierta deliberación tanto sus producciones como las ajenas.'
+      notable: 'Planifica, y produce con bastante pertinencia autonomía textos expositivos
+        y argumentativos sobre un tema polémico, en los que analiza con cierta profundidad
+        enfrentadas, defendiendo una opinión propia argumentos convincentes. En producciones
+        casi siempre y con bastante conciencia de la importancia de estos aspectos:
+        se expresa con claridad, las precisión y corrección; respeta las características
+        gramaticales y la ortofonía de la norma culta del español de Canarias; adapta
+        los elementos verbales y no verbales a las condiciones de la situación comunicativa;
+        y emplea un léxico preciso y especializado, así como los recursos expresivos
+        propios del registro formal. Para todo ello, con bastante destreza y de acierto:
+        consulta fuentes de información diversa, utiliza o apoyos audiovisuales gráficos,
+        y sigue un guion previamente establecido para estructurar la información obtenida,
+        los correctamente cita. procedimientos de Además, demuestra comprende este
+        tipo de textos, de manera que elabora cohesionados y completos, y con bastante
+        precisión: información discrimina la información relevante, reconoce las distintas
+        formas de organización del discurso y analiza los recursos verbales y emisor,
+        no verbales empleados por el valorándolos en función de los elementos de la
+        situación comunicativa. Por último, a partir de la práctica habitual de la
+        evaluación y la coevaluación, mejora con bastante profundidad y cierto sentido
+        crítico tanto sus producciones como las ajenas.'
+      sobresaliente: 'Planifica y produce con y pertinencia y autonomía orales textos
+        orales expositivos y argumentativos sobre un tema polémico en los que analiza
+        en profundidad posturas posturas enfrentadas, defendiendo una opinión propia
+        mediante mediante argumentos sólidos y muy bastante convincentes. En estas
+        estas producciones siempre y con total conciencia de la importancia de estos
+        aspectos: se expresa con claridad, precisión y corrección; respeta las características
+        gramaticales y la ortofonía de la norma culta del español de Canarias; adapta
+        los elementos verbales y no verbales a las condiciones de la situación comunicativa;
+        y emplea un léxico preciso y especializado, así como los recursos expresivos
+        propios del registro formal. Para todo ello, con destreza y acierto: consulta
+        fuentes de información diversa, utiliza apoyos audiovisuales o o gráficos,
+        y sigue un guion previamente establecido para estructurar la información obtenida,
+        aplicando aplicando correctamente los los procedimientos de cita. cita. Además,
+        demuestra que que comprende este tipo de textos, de manera que elabora resúmenes
+        de estos con precisión: discrimina la relevante, reconoce las distintas formas
+        de organización del discurso y analiza los recursos verbales y no verbales
+        empleados por el valorándolos en función de los elementos de la situación
+        comunicativa. Por último, a partir de la práctica habitual de la evaluación
+        y la coevaluación, mejora con gran profundidad y sentido crítico tanto sus
+        producciones como las ajenas.'
+  - id: '2'
+    name: Criterio 2
+    description: Comprender y producir textos orales periodísticos y publicitarios
+      procedentes de los medios y redes de comunicación social, reconociendo la intención
+      comunicativa, el tema y la estructura del contenido; identificando los rasgos
+      propios del género periodístico, los recursos verbales y no verbales utilizados
+      y valorando de forma crítica su forma y su contenido; así como relacionando
+      los aspectos formales del texto con la intención comunicativa del emisor y con
+      el resto de los factores de la situación comunicativa para valorar la importancia
+      de la escucha activa como un medio de adquisición de conocimientos. Con este
+      criterio se pretende evaluar la capacidad del alumnado para comprender, producir
+      y evaluar textos orales procedentes de los medios y redes de comunicación       social   (informativos,     tertulias
+      radiofónicas, reportajes, publicidad audiovisual, blogs…). De esta manera, demostrará
+      que reconoce las distintas formas de organización del contenido en una argumentación
+      oral, analizando los recursos verbales y no verbales empleados por el emisor
+      y valorándolos en función de los elementos de la situación comunicativa; e interpreta
+      diversos anuncios sonoros y audiovisuales identificando la información y la
+      persuasión, reconociendo los elementos que utiliza el emisor para seducir al
+      receptor, valorando críticamente su forma y su contenido y rechazando las ideas
+      discriminatorias. Asimismo, en sus propias producciones, defiende una opinión
+      propia mediante argumentos razonados, consultando fuentes de información diversa
+      para recopilar información y apoyos audiovisuales o gráficos y siguiendo un
+      guión previamente establecido para estructurar la información obtenida, utilizando
+      correctamente los procedimientos de cita. Además, se expresa con claridad, precisión
+      y corrección, adaptando su actuación verbal y no verbal (entonación, tono, timbre
+      velocidad, gestos…) a las condiciones de la situación comunicativa (tema, ámbito
+      discursivo, tipo de sus producciones y las de sus compañeros, detectando las
+      dificultades estructurales y expresivas y diseñando   diversas, estrategias
+      para mejorar sus prácticas orales y           incorrectamente progresar en el
+      aprendizaje autónomo.
+    levels:
+      insuficiente: 'Analiza de manera superficial y valora con deliberación los recursos
+        verbales y no verbales, así como la forma y el contenido de textos orales
+        audiovisuales, periodísticos y publicitarios, procedentes de los medios y
+        las redes de comunicación social, función de su intención comunicativa. Para
+        ello, con bastantes reconoce los rasgos propios de los principales géneros
+        de información y de opinión, y diferencia la información de la persuasión,
+        así como las distintas formas organización del contenido propias de una argumentación
+        oral y los elementos utilizados para seducir al receptor, rechazando las discriminatorias.
+        planifica de manera poco pertinente y produce textos de este tipo con errores
+        de organización y aportaciones originales, en los que: defiende una opinión
+        propia mediante argumentos razonados, se expresa con claridad, precisión corrección,
+        atendiendo a la dicción y ortofonía de la norma culta del español de Canarias,
+        adapta su actuación verbal y no verbal a las condiciones de la situación comunicativa.
+        Para todo ello, consulta de manera fuentes de información utilizando procedimientos
+        de cita, y sin apoyarse en elementos audiovisuales y gráficos. Por último,
+        a partir de la práctica habitual de la evaluación y la coevaluación, no es
+        capaz de mejorar ni sus producciones ni las ajenas.'
+      suficiente_bien: 'Analiza de manera general y escasa valora con deliberación
+        los recursos verbales y no verbales, así como la forma y el contenido de textos
+        orales y y audiovisuales, periodísticos y publicitarios, procedentes de los
+        medios y las redes de comunicación social, en en función de su intención comunicativa.
+        Para ello, con cierta precisión: reconoce los imprecisiones: rasgos propios
+        de los principales géneros de información y de opinión, y diferencia la información
+        de la persuasión, así como las distintas formas de de organización del contenido
+        propias de una argumentación oral y los elementos utilizados para seducir
+        al receptor, rechazando las ideas ideas discriminatorias. Además, Además,
+        planifica aunque no siempre de manera pertinente y produce textos de este
+        tipo con cierta organización y algunas sin aportaciones originales, en los
+        que: defiende una opinión propia mediante argumentos razonados, se expresa
+        con claridad, precisión y y corrección, atendiendo a la dicción y ortofonía
+        de la norma culta del español de Canarias, y y adapta su actuación verbal
+        y no verbal a las condiciones de la situación comunicativa. Para todo ello,
+        consulta aunque no siempre de manera eficaz y información diversas, fuentes
+        utilizando correctamente los diversas, los procedimientos de cita, y correctamente
+        apoyándose en elementos audiovisuales y gráficos. Por último, a partir de
+        la práctica habitual de la evaluación y la coevaluación, mejora superficialmente
+        tanto en sus coevaluación, producciones como las ajenas.'
+      notable: 'Analiza con profundidad y valora con bastante sentido crítico los
+        recursos verbales y verbales, así como la forma y el contenido de textos orales
+        audiovisuales, periodísticos y publicitarios, procedentes de los medios y
+        las redes de comunicación social, función de su intención comunicativa. Para
+        ello, con bastante precisión: reconoce los rasgos propios de los principales
+        géneros información y de opinión, y diferencia la información de la persuasión,
+        así como las distintas formas organización del contenido propias de una argumentación
+        oral y los elementos utilizados para seducir al receptor, rechazando las discriminatorias.
+        planifica de manera bastante pertinente y produce textos de este tipo bastante
+        bien organizados y con cierta originalidad, en los que: defiende una opinión
+        propia mediante razonados, se expresa con claridad, precisión corrección,
+        atendiendo a la dicción y ortofonía de la norma culta del español de Canarias,
+        adapta su actuación verbal y no verbal a las condiciones de la situación comunicativa.
+        Para todo ello, consulta de manera de información utilizando los procedimientos
+        de cita, y apoyándose en elementos audiovisuales y gráficos. Por último, a
+        partir de la práctica habitual de la evaluación y la mejora notablemente tanto
+        en sus producciones como las ajenas.'
+      sobresaliente: 'cierta Analiza en profundidad y valora con sentido crítico y
+        estético los recursos verbales y no no verbales, así como la forma y el contenido
+        de textos orales y y audiovisuales, periodísticos y publicitarios, procedentes
+        de los medios y las redes de comunicación social, en en función de su intención
+        comunicativa. Para ello, con precisión: reconoce los rasgos propios de los
+        principales géneros de información y de de opinión, y diferencia la información
+        de la persuasión, así como las distintas formas de organización del contenido
+        de propias de una argumentación oral y los elementos utilizados para seducir
+        al receptor, rechazando las ideas discriminatorias. Además, ideas planifica
+        de manera Además, pertinente y produce textos de este tipo bien organizados
+        y originales, en los que: defiende una opinión propia mediante argumentos
+        razonados, se expresa con claridad, precisión y argumentos corrección, atendiendo
+        a la dicción y ortofonía de la norma y culta del español de Canarias, y adapta
+        su actuación verbal y no verbal a las condiciones de la y situación comunicativa.
+        Para todo ello, consulta de manera eficaz y pertinente fuentes de información
+        diversas, utilizando correctamente los apoyándose en elementos audiovisuales
+        y gráficos. Por último, a partir de la práctica habitual de la evaluación
+        y la coevaluación, mejora en profundidad tanto en sus producciones como las
+        ajenas.'
+  - id: '3'
+    name: Criterio 3
+    description: Producir textos escritos expositivos y argumentativos en contextos
+      formales de aprendizaje con rigor, claridad y corrección ortográfica y gramatical,
+      a partir de un esquema previo que contemple la planificación, realización, revisión
+      y mejora del texto, empleando distintas estructuras expositivas (comparación,
+      problema- solución,      enumeración,     causa-consecuencia, ordenación cronológica…)
+      o exponiendo, en su caso, las diversas opiniones que se sostienen, adoptando
+      una posición crítica bien argumentada y convincente y ajustando su expresión
+      a la intención comunicativa y al resto de las condiciones de la situación comunicativa,
+      con el apoyo de las Tecnologías de la Información y la Comunicación, valorando
+      la escritura como un medio de expresión de emociones y sentimientos y de desarrollo
+      del espíritu crítico. Este criterio nos va a permitir evaluar que el alumnado
+      planifica y produce textos escritos sobre un tema especializado con rigor, claridad
+      y corrección ortográfica y gramatical, aplicando los conocimientos gramaticales
+      y pragmáticos para mejorar la expresión escrita, ajustando su expresión a las
+      condiciones de la situación comunicativa (tema, ámbito discursivo, tipo de destinatario,
+      género textual…), empleando los recursos expresivos propios del registro formal
+      y evitando el uso de coloquialismos. Se valorará igualmente la coherencia y
+      cohesión en la presentación de los contenidos o la relevancia de los argumentos
+      seleccionados en función de la tesis desarrollada, cuando proceda. Por último,
+      evalúa sus propias producciones escritas y las de sus compañeros,       reconociendo       las     dificultades
+      estructurales y expresivas, recurriendo a obras de consulta tanto impresas como
+      digitales para su corrección y diseñando estrategias para mejorar su redacción
+      y avanzar en el aprendizaje autónomo. con muchas imprecisiones el          principales
+      y secundarias. tema y la estructura, así como       último, a partir de la las    ideas     principales     y   habitual
+      de la evaluación secundarias. Por último, a           coevaluación, mejora partir
+      de la práctica habitual de    producciones como las ajenas, la      evaluación       y      la   aplicando       con
+      coevaluación, mejora tanto sus       conciencia los conocimientos producciones
+      como las ajenas,        gramaticales y pragmáticos aplicando con poca conciencia        para
+      mejorar la expresión los conocimientos gramaticales       escrita. y pragmáticos
+      para mejorar la expresión escrita.
+    levels:
+      insuficiente: Planifica de manera poco pertinente aun orientaciones y produce
+        textos escritos expositivos argumentativos estructurados y aportaciones personales
+        sobre un tema especializado a partir de la consulta de fuentes de información
+        diversa y de la utilización de las TIC poco eficaz, empleando con poca destreza
+        distintas estructuras expositivas o seleccionando argumentos poco relevantes
+        para la defender la tesis desarrollada. En ellos en muchas ocasiones sin gran
+        conciencia de la importancia de estos aspectos se expresa con poco rigor,
+        claridad y corrección ortográfica gramatical, presentando los contenidos incorrecciones
+        de coherencia y cohesión; se ajusta a las particularidades de la norma culta
+        del español de Canarias a las condiciones de la situación comunicativa; y
+        emplea con poco acierto los recursos expresivos propios del registro formal,
+        así como un léxico poco preciso especializado, evitando el uso de coloquialismos.
+        Además, analiza de manera superficial los recursos verbales y no verbales
+        de este tipo de textos, y los valora en función de los elementos de la situación
+        Por las ideas práctica secundarias. Por y la partir de la práctica tanto sus
+        la evaluación coevaluación, mejora cierta producciones como aplicando con
+        conocimientos pragmáticos para expresión escrita.
+      suficiente_bien: 'Planifica con cierta con pertinencia y autonomía, y produce
+        textos escritos y expositivos y argumentativos mal bien estructurados y con
+        sin aportaciones personales sobre un tema especializado a partir de la consulta
+        de fuentes de información diversa y de la utilización de las TIC, aunque no
+        siempre de manera eficaz, y empleando con cierta destreza distintas estructuras
+        expositivas o seleccionando argumentos relevantes para la defender la tesis
+        desarrollada. En ellos en bastantes ocasiones con cierta conciencia de la
+        importancia de estos aspectos: se expresa con rigor, claridad y corrección
+        y ortográfica y gramatical, presentando los contenidos con algunas coherencia
+        y cohesión; se ajusta a las particularidades de la norma culta del español
+        de Canarias y a las condiciones de y la situación comunicativa; y emplea los
+        recursos expresivos propios del registro formal, así como un léxico preciso
+        y especializado, evitando el uso de coloquialismos. Además, y analiza de manera
+        general los recursos verbales y no verbales de este tipo de textos, y los
+        valora en función de los elementos de la situación comunicativa, identificando
+        con algunas imprecisiones poco importantes, el tema y la principales y último,
+        a partir de la último, a habitual de la evaluación habitual de coevaluación,
+        mejora y la producciones como las tanto sus aplicando con conciencia las ajenas,
+        sentido conciencia los conocimientos gramaticales gramaticales y pragmáticos
+        para mejorar mejorar la expresión escrita.'
+      notable: 'Planifica con pertinencia y autonomía, y produce textos expositivos
+        y argumentativos de cierta complejidad y con bastante originalidad sobre un
+        tema especializado a partir de la consulta de fuentes de información diversa
+        y de la utilización de las TIC bastante eficaz, y empleando con bastante destreza
+        y acierto distintas estructuras expositivas o seleccionando argumentos relevantes
+        y bastante sólidos para la defender la tesis desarrollada. En ellos casi siempre
+        con conciencia de la importancia de aspectos: se expresa con rigor, claridad
+        y ortográfica y gramatical, presentando los contenidos con coherencia y cohesión;
+        se ajusta a las particularidades la norma culta del español de Canarias y
+        a las condiciones de la situación comunicativa; y emplea los recursos expresivos
+        propios del registro formal, así como un léxico preciso, especializado y bastante
+        rico, evitando el uso coloquialismos. analiza con profundidad los recursos
+        verbales y no verbales de este tipo de textos, y los valora en función de
+        los elementos de la situación identificando con precisión el práctica y la
+        tanto sus ajenas, y estético los y la'
+      sobresaliente: 'bastante Planifica con pertinencia y autonomía, y produce textos
+        escritos escritos expositivos y argumentativos complejos y originalidad sobre
+        un tema especializado a partir de la consulta de fuentes de información diversa
+        y de la utilización de las TIC eficaz, y empleando con mucha destreza y acierto
+        distintas estructuras expositivas o seleccionando argumentos muy relevantes
+        y sólidos para la defender la tesis desarrollada. En ellos siempre con total
+        conciencia de la importancia de estos estos aspectos: se expresa con rigor,
+        claridad y corrección corrección ortográfica y gramatical, presentando los
+        contenidos con coherencia y cohesión; se ajusta a las particularidades de
+        de la norma culta del español de Canarias y a las condiciones de la situación
+        comunicativa; y emplea los recursos expresivos propios del registro formal,
+        así como un léxico preciso, especializado y rico, evitando el uso de coloquialismos.
+        de Además, analiza en Además, profundidad los recursos cierta verbales y no
+        verbales de este tipo de textos, y los valora en función de los elementos
+        de la situación comunicativa, identificando con mucha comunicativa, precisión
+        el tema y la estructura, así como las ideas'
+  - id: '4'
+    name: Criterio 4
+    description: 'Comprender, analizar y comentar textos expositivos y argumentativos
+      propios las redes y medios de comunicación social, aplicando los conocimientos
+      sobre el funcionamiento de la lengua, resumiendo su contenido, diferenciando
+      la idea principal y explicando el modo de organización de las ideas en cada
+      tipología; reconociendo los rasgos formales del género y relacionando sus características
+      expresivas y sus usos lingüísticos con la intención del emisor y con el resto
+      de los elementos de la situación comunicativa, para finalmente aplicar estos
+      conocimientos en la composición de textos escritos, sobre temas relacionados
+      con la actualidad social y cultural, reconociendo, en la reflexión sobre los
+      procesos de producción y recepción de un texto, la importancia que para su comprensión
+      tienen los conocimientos previos que se poseen a partir de lecturas anteriores
+      que se relacionan con él, en la búsqueda de una mejora permanente de la interpretación
+      y producción autónoma de textos orales y escritos. Este criterio permitirá evaluar
+      si el alumnado comprende, sintetiza, analiza y comenta textos de carácter expositivo
+      y argumentativo propios del ámbito periodístico y de las redes de comunicación
+      social, resumiendo el contenido, identificando la intención comunicativa del
+      emisor, diferenciando las ideas principales de las secundarias y distinguiendo
+      las diferentes formas de estructurar los discursos. Además, se pretende comprobar
+      si el alumnado reconoce, explica y aplica las características lingüísticas y
+      los recursos expresivos: reconoce, describe y explica los recursos que proporcionan
+      coherencia, cohesión y adecuación a este tipo de textos, ya sean morfosintácticos
+      (sustitución pronominal, uso reiterado de determinadas estructuras sintácticas,   correlación    temporal,…),       léxico-
+      semánticos (sustitución por sinónimos, hipónimos e hiperónimos, reiteraciones
+      léxicas…) o pragmático- textuales (aspectos extralingüísticos), al igual que
+      los indirecto libre y cita encubierta), utilizando en el proceso la terminología
+      gramatical adecuada, poniendo de manifiesto la relación de estos elementos con
+      la intención comunicativa del emisor y con los rasgos propios del género textual,
+      y reconociendo y explicando, en la revisión para la mejora de textos propios
+      y ajenos, incorrecciones (concordancias, régimen       verbal,     ambigüedades      sintácticas,
+      coloquialismos, etc.). Asimismo, se comprobará si los alumnos y las alumnas
+      son capaces identificar y explicar la intertextualidad en la recepción o producción
+      de textos, expresando sus experiencias lectoras de obras de diferente tipo,
+      género, etc. y sus experiencias personales, relacionándolas con el nuevo texto
+      para llegar a una mejor comprensión e interpretación del mismo. De esta manera,
+      aplicará sus conocimientos y conclusiones en la producción individual de textos
+      argumentativos y expositivos relacionados      con    la    actualidad   social    y
+      cultural(comentarios de texto, breves ensayos, artículos de opinión…), presentados
+      en soporte papel o digital (diarios escolares, blogs, vlogs…) usando el registro
+      adecuado a la intención comunicativa, organizando los enunciados en secuencias
+      lineales cohesionadas y respetando las normas ortográficas y gramaticales, con
+      objeto de mejorar la expresión escrita y avanzar en el aprendizaje autónomo.'
+    levels:
+      insuficiente: Analiza de manera superficial y comenta con poco rigor y claridad
+        textos periodísticos escritos de carácter expositivo y argumentativo propios
+        del ámbito periodístico y de las redes de comunicación social, con dificultades
+        relacionarlos con experiencias lectoras personales previas. De esta manera,
+        elabora resúmenes de estos poco cohesionados e incompletos e identifica con
+        errores importantes el tema, la estructura, la intención comunicativa y las
+        ideas principales y secundarias. Además le cuesta reconocer y explicar los
+        lingüísticos y expresivos que proporcionan cohesión y adecuación a este tipo
+        de textos, al igual que los procedimientos de cita. Para ello, con poca pertinencia
+        utiliza la gramatical adecuada y pone de manifiesto la relación de estos elementos
+        con la intención comunicativa del emisor y con los rasgos propios del género
+        textual. Finalmente, aplica con poco dominio conocimientos en producción de
+        argumentativos y expositivos relacionados con temas de actualidad, en los
+        que no siempre usa el registro adecuado a la intención contenidos con poca
+        coherencia, cohesión corrección ortográfica gramatical, y argumentos poco
+        sólidos. Por último, a partir de la práctica habitual de la evaluación y la
+        coevaluación, mejora con poca conciencia de los errores detectados tanto sus
+        propias producciones como las ajenas.
+      suficiente_bien: Analiza de manera general y comenta con cierto rigor y claridad
+        textos periodísticos escritos de carácter expositivo y argumentativo propios
+        del ámbito periodístico y de las redes de comunicación social, para relacionándolos
+        con sus experiencias lectoras y personales previas. De esta manera, elabora
+        resúmenes de estos con algunos errores en los que respecta a la cohesión y
+        no siempre completos, e identifica sin importantes el tema, la estructura,
+        la comunicativa y las ideas principales y secundarias. recursos Además reconoce
+        y explica con cierta precisión los coherencia, recursos lingüísticos expresivos
+        que proporcionan coherencia, cohesión adecuación a este tipo de textos, al
+        igual que los terminología procedimientos de cita. Para ello, con cierta pertinencia
+        utiliza la terminología gramatical adecuada y pone de manifiesto la relación
+        de estos elementos con la intención comunicativa del emisor y con estos los
+        rasgos propios del género la textual. Finalmente, aplica con textos bastante
+        dominio conocimientos en producción de argumentativos y expositivos relacionados
+        con temas de actualidad, en los que adecuado a la intención y comunicativa,
+        presenta los y contenidos con bastante corrección selecciona coherencia, cohesión
+        y gramatical, corrección ortográfica y argumentos gramatical, y selecciona
+        argumentos sólidos. Por de la último, a partir de la práctica habitual de
+        la evaluación y la coevaluación, mejora con cierta conciencia de los errores
+        detectados tanto sus propias producciones como las ajenas.
+      notable: Analiza con profundidad y comenta con rigor y claridad textos periodísticos
+        escritos carácter expositivo argumentativo propios del ámbito periodístico
+        y de las sus redes de comunicación social, y relacionándolos con experiencias
+        lectoras personales previas. De esta manera, elabora resúmenes de estos bastante
+        cohesionados y completos, e identifica con errores bastante acierto el tema,
+        la estructura, la intención comunicativa y las ideas principales y secundarias.
+        Además reconoce y explica con bastante precisión los recursos lingüísticos
+        y expresivos que proporcionan coherencia, cohesión y adecuación a este tipo
+        de textos, al igual que los procedimientos de cita. Para ello, con pertinencia
+        utiliza terminología adecuada y pone de manifiesto la relación de estos elementos
+        con la intención comunicativa del emisor y con los rasgos propios del género
+        textual. Finalmente, aplica con gran estos dominio estos conocimientos la
+        en la producción de textos textos argumentativos y expositivos relacionados
+        con temas de actualidad, en los que usa casi siempre el registro adecuado
+        a presenta los contenidos con coherencia, cohesión y gramatical, ortográfica
+        y y selecciona sólidos y de originales. Por último, a partir práctica habitual
+        de la evaluación y la coevaluación, los mejora con conciencia de los sus errores
+        detectados tanto sus las propias producciones como las ajenas.
+      sobresaliente: bastante Analiza en profundidad y comenta con gran rigor y claridad
+        textos periodísticos de escritos de carácter expositivo y y argumentativo
+        propios del ámbito periodístico y de las redes de comunicación social, relacionándolos
+        con sus sus experiencias lectoras y y personales previas. De esta manera,
+        elabora resúmenes de estos cohesionados y completos, e identifica con gran
+        acierto el tema, la estructura, la intención intención comunicativa y las
+        ideas principales y secundarias. Además reconoce y explica con precisión los
+        recursos lingüísticos y expresivos que y proporcionan coherencia, cohesión
+        y adecuación a este y tipo de textos, al igual que los procedimientos de cita.
+        Para ello, con pertinencia utiliza la terminología gramatical bastante adecuada
+        y pone de manifiesto la la relación de estos elementos gramatical con la intención
+        comunicativa del emisor y con los rasgos propios del género textual. Finalmente,
+        aplica con gran dominio y exquisitez estos conocimientos en la producción
+        de textos argumentativos y expositivos relacionados con temas de actualidad,
+        en los que usa siempre el registro adecuado a la intención comunicativa, presenta
+        los contenidos con corrección ortográfica y y selecciona argumentos muy sólidos
+        y originales. Por último, a partir la práctica habitual de la evaluación y
+        la coevaluación, mejora con total conciencia de errores detectados tanto propias
+        producciones como ajenas.
+  - id: '5'
+    name: Criterio 5
+    description: Realizar trabajos académicos de investigación sobre temas del currículo
+      o aspectos polémicos de la actualidad social, científica y cultural, en un proceso
+      integral y planificado de manera autónoma, que le permita reconocer cuándo necesita
+      información, buscarla, gestionarla, evaluarla y comunicarla de forma adecuada
+      al contexto,     prestando especial atención al hecho de contrastar opiniones
+      enfrentadas y aportando un punto de vista personal, crítico y riguroso en la
+      argumentación de sus propias opiniones. Aplicar las normas de presentación este
+      tipo de trabajos y mostrar respeto con la propiedad intelectual de las fuentes
+      consultadas. Utilizar las tecnologías de la información y la comunicación para
+      la realización, evaluación y mejora del contenido y de la expresión lingüística
+      de estas producciones. Todo ello para propiciar un proceso de aprendizaje continuo
+      y para toda la vida. Se pretende comprobar que el alumnado, individualmente
+      o de forma cooperativa, consulta fuentes de información variadas en contextos
+      sociales o académicos, para la realización de trabajos de investigación sobre
+      temas del currículo y de aspectos controvertidos de la actualidad social, científica
+      o cultural. Se verificará que es capaz de planificar su realización, fijando
+      sus propios objetivos, organizando la información en función de un orden predefinido,
+      contrastando posturas enfrentadas y llegando a conclusiones personales, para
+      cuya defensa utiliza distintos tipos de argumentos. Se constatará asimismo que
+      es capaz de revisar el proceso de escritura para mejorar el producto final,
+      respetando las normas establecidas en la presentación de trabajos (organización
+      en epígrafes, procedimientos de cita, notas a pie de páginas, bibliografía…).
+      Se comprobará también que utiliza las tecnologías de la información y la comunicación
+      para documentarse de forma libre, consultando fuentes diversas, evaluando, contrastando,
+      seleccionando y organizando la información relevante mediante fichas-resumen.
+      Se valorará, además, la creatividad y la adecuación al contexto, académico o
+      social, en la difusión de nuevos aprendizajes, la aportación de un punto de
+      vista personal y crítico en sus producciones, y el rigor, la claridad y la coherencia
+      en la expresión, así como la manifestación de una actitud ética y respetuosa
+      con la objetividad o subjetividad de los contenidos, afianzando así, para su
+      futuro académico, los conocimientos que irá adquiriendo mediante su propia experiencia
+      informacional.
+    levels:
+      insuficiente: Planifica y realiza, aunque no siempre de manera pertinente y
+        con un desarrollo que necesita ampliación, trabajos de investigación en los
+        que respeta las normas establecidas para la presentación de este tipo de producciones.
+        De esta manera, orientaciones durante proceso , fija sus propios objetivos,
+        organiza información en función de un orden predefinido, contrasta posturas
+        enfrentadas, llegando conclusiones personales mostrando inseguridad en la
+        exposición de argumentos; y revisa el proceso de escritura para mejorar el
+        producto final. Para ello utiliza, aunque no siempre de forma eficaz, fuentes
+        de información variadas y las TIC para documentarse, y evalúa, contrasta,
+        selecciona y organiza la información mediante fichas-resumen. Sus trabajos
+        frecuentemente pero con conciencia superficial, rigor, claridad y coherencia
+        en la expresión, a la par que una actitud creativa y de adecuación al contexto,
+        así como una actitud ética y responsable con la propiedad intelectual y con
+        expresión de la objetividad y subjetividad en el análisis y presentación de
+        los contenidos.
+      suficiente_bien: Planifica y realiza, con bastante pertinencia y con cierto
+        desarrollo, trabajos de investigación en los que respeta las normas establecidas
+        para la presentación de este tipo de producciones. De esta manera, con bastante
+        precisando autonomía fija sus propios el objetivos; organiza información en
+        función de un la orden predefinido; contrasta posturas enfrentadas, llegando
+        a conclusiones personales y a exponiéndolas con distintos y tipos de argumentos
+        sin dudas importantes; y revisa el algunos proceso de escritura para mejorar
+        el producto final. Para ello utiliza, con eficacia, fuentes de información
+        variadas y las TIC para documentarse, y evalúa, contrasta, selecciona organiza
+        la información relevante relevante mediante fichas- resumen. Sus trabajos
+        presentan, presentan, casi siempre y con cierta conciencia, claridad y coherencia
+        en la expresión, a la par que una actitud creativa y de adecuación al contexto,
+        así como una actitud ética y responsable con la propiedad la intelectual y
+        con la expresión de la objetividad y subjetividad en el análisis y presentación
+        de los contenidos.
+      notable: Planifica y realiza, de forma pertinente y con un adecuado desarrollo,
+        trabajos investigación en los que respeta las normas establecidas para la
+        presentación de este tipo de producciones. De esta manera, con autonomía,
+        fija sus propios objetivos, organiza la la información en función de un orden
+        predefinido, contrasta posturas enfrentadas, llegando a conclusiones personales
+        y exponiéndolas con distintos tipos de argumentos con seguridad y claridad;
+        y revisa el proceso de escritura para mejorar el producto final. Para ello
+        utiliza, de forma ágil y eficaz, fuentes de información variadas y las TIC
+        para documentarse, y contrasta, selecciona y organiza la información relevante
+        y mediante fichas- resumen. Sus presentan, siempre y de manera consciente,
+        rigor, rigor, claridad y coherencia en la expresión, a la par que una actitud
+        creativa y adecuación al contexto, así como una actitud ética y responsable
+        con la propiedad intelectual y con la expresión de la objetividad y subjetividad
+        en el análisis y presentación los contenidos.
+      sobresaliente: Planifica y realiza, de forma muy pertinente y con un de adecuado
+        y detallado desarrollo trabajos de investigación en los que respeta las normas
+        establecidas para la presentación de este tipo de producciones. De esta manera,
+        de manera totalmente autónoma y con iniciativa propia, fija sus propios objetivos;
+        organiza la información en función de un orden predefinido; contrasta posturas
+        enfrentadas, llegando a conclusiones personales y exponiéndolas con distintos
+        tipos de argumentos con asertividad y lucidez; y revisa el proceso de escritura
+        para mejorar el producto final. Para evalúa, ello, con dominio ágil y y versátil,
+        utiliza fuentes de información variadas y las TIC para documentarse, y evalúa,
+        trabajos contrasta, selecciona y organiza la información relevante mediante
+        fichas- resumen. Sus trabajos presentan, siempre y con total de conciencia,
+        rigor, claridad y coherencia en la expresión, a la par que una actitud creativa
+        y de adecuación al contexto, así como una actitud ética y responsable con
+        la propiedad de intelectual y con la expresión de la objetividad y subjetividad
+        en el análisis y presentación de los contenidos.
+  - id: '6'
+    name: Criterio 6
+    description: Aplicar sistemáticamente los conocimientos ortográficos, gramaticales
+      y lingüísticos, con la debida atención a las particularidades del español de
+      Canarias, en la realización, autoevaluación y mejora de textos orales y escritos
+      propios del ámbito personal, académico y social, con ayuda de un uso autónomo
+      del diccionario y otras fuentes de información digitales o impresas, y poniendo
+      en práctica distintas estrategias que permitan la mejora de la comunicación
+      oral y escrita, de manera que el alumnado pueda identificar y explicar, en contextos
+      comunicativos diversos, los rasgos característicos, usos y valores de todas
+      las categorías gramaticales en contexto, así como observar, reflexionar y explicar
+      las distintas estructuras sintácticas de un texto, señalando las conexiones
+      lógicas y semánticas que se establecen entre ellas, y utilizándolas en sus propias
+      producciones, todo ello en relación con la intención y la situación comunicativa,
+      a fin de tomar conciencia de la importancia del conocimiento gramatical para
+      el uso correcto de la lengua, mejorar y enriquecer su vocabulario activo y avanzar
+      en su aprendizaje autónomo. Comprender y valorar las normas de uso lingüístico
+      en torno a la expresión del género, para fomentar un uso comunicativo de la
+      lengua que, de acuerdo a sus normas gramaticales, sea respetuoso con la diferencia
+      de sexos y la igualdad de derechos y deberes entre las personas. Este criterio
+      pretende comprobar si el alumnado aplica, en la realización, autoevaluación
+      y mejora de textos orales y escritos propios del ámbito personal, académico
+      o social, ayudándose de un uso adecuado de diccionarios y fuentes de información
+      en formato papel o digital, y empleando la terminología gramatical adecuada,
+      conocimientos y normas de uso de la lengua para mejorar la adecuación, coherencia
+      y cohesión de las producciones propias y ajenas, siempre en relación con la
+      intención comunicativa del emisor, la tipología textual, y otros componentes
+      de la identifica y explica los usos y valores en la comunicación todas las categorías
+      gramaticales en un texto      (incluidos     adverbios,     conjunciones, preposiciones
+      e interjecciones), que reconoce e incorpora en sus propias producciones variadas
+      estructuras sintácticas (simples y complejas), explicando la relación funcional
+      y de significado que establecen con el verbo de la oración principal y con otros
+      elementos del texto, y valorando la importancia del conocimiento y la corrección
+      gramatical (con la adecuada atención a los aspectos relacionados con la expresión
+      de las diferencias de género y el fomento de un lenguaje coeducativo) para la
+      mejora en el uso de la lengua y su competencia en comunicación lingüística.
+    levels:
+      insuficiente: Aplica frecuentemente aunque con superficial sobre importancia
+        de hacerlo sus conocimientos morfológicos y sintácticos al enriquecimiento
+        de textos orales o escritos, propios o ajenos, y a la mejora de la adecuación,
+        la coherencia y la cohesión de estos, teniendo en cuenta la intención comunicativa
+        del emisor, la tipología textual y otros componentes de la situación comunicativa,
+        y empleando de manera poco adecuada diccionarios y otras fuentes de consulta.
+        De esta manera, de forma pautada, identifica y explica, utilizando terminología
+        adecuada y demostrando un conocimiento insuficiente de los usos y valores
+        de todas las categorías gramaticales, así como las funcionales y de significado
+        de estructuras sintácticas simples y complejas tanto en torno a su verbo principal
+        como respecto al resto de elementos referenciales del contexto. Además, respeta
+        y valora, aunque con superficial, la expresión de las diferencias de género
+        y utiliza un lenguaje coeducativo.
+      suficiente_bien: Aplica casi siempre y con conciencia cierta conciencia de la
+        la importancia de hacerlo sus conocimientos morfológicos y sintácticos al
+        enriquecimiento de textos orales o escritos, propios o ajenos, y a la mejora
+        de la adecuación, la coherencia y la cohesión de estos, teniendo en cuenta
+        la intención comunicativa del emisor, la tipología textual y otros componentes
+        de la situación comunicativa, y empleando adecuadamente diccionarios y otras
+        fuentes de consulta. De esta manera, con algunas orientaciones, identifica
+        y explica, utilizando la terminología gramatical gramatical adecuada y demostrando
+        un conocimiento oportuno de todo ello,los usos y valores de de todas las categorías
+        gramaticales, así como las relaciones relaciones funcionales y de significado
+        de estructuras sintácticas simples y complejas tanto en torno a su verbo principal
+        como respecto al resto de elementos referenciales del contexto. Además, respeta
+        y valora con conciencia cierta conciencia la expresión de las diferencias
+        de género y utiliza un lenguaje coeducativo.
+      notable: Aplica casi siempre y con conciencia de la importancia de hacerlo sus
+        conocimientos morfológicos y sintácticos al enriquecimiento de textos orales
+        o escritos, propios o ajenos, y a la mejora de la adecuación, la coherencia
+        y la cohesión de estos, teniendo en cuenta la comunicativa del emisor, la
+        tipología textual y otros componentes de la situación comunicativa, y empleando
+        adecuadamente diccionarios y otras fuentes de consulta. De esta manera, de
+        forma autónoma, identifica la explica, utilizando terminología adecuada y
+        demostrando un conocimiento destacado de todo ello, los usos y valores de
+        todas las gramaticales, así como las relaciones funcionales y de significado
+        de estructuras sintácticas simples y complejas tanto en torno a su verbo principal
+        como respecto al resto de referenciales del contexto. Además, respeta y valora
+        con conciencia crítica la expresión de las diferencias de género y utiliza
+        un coeducativo.
+      sobresaliente: Aplica siempre y con total conciencia de la importancia de hacerlo
+        sus conocimientos morfológicos y sintácticos en la realización, evaluación
+        y mejora de la adecuación, coherencia y cohesión de producciones propias y
+        ajenas, teniendo en cuenta la intención intención comunicativa del emisor,
+        la tipología textual y otros componentes de la situación comunicativa, y empleando
+        adecuadamente diccionarios y otras fuentes de consulta. De esta manera, de
+        forma totalmente autónoma y y pertinente identifica y explica, la utilizando
+        la terminología gramatical gramatical adecuada y demostrando un conocimiento
+        exhaustivo de todo ello, los usos y valores en categorías la comunicación
+        de todas las categorías gramaticales, así como las relaciones funcionales
+        y de significado de estructuras sintácticas simples y complejas tanto en torno
+        a su verbo principal como respecto elementos al resto de elementos referenciales
+        del contexto lingüístico en el que aparecen. Además, respeta y valora con
+        conciencia crítica y lenguaje asertividad la expresión de las diferencias
+        de género y utiliza un lenguaje coeducativo y respetuoso con la igualdad de
+        derechos y deberes entre las personas.
+  - id: '7'
+    name: Criterio 7
+    description: Interpretar y describir el significado de las palabras en su contexto
+      comunicativo, a través del reconocimiento y explicación de los procesos de creación
+      del léxico en español y de la identificación y explicación de los distintos
+      niveles de significado de las palabras o expresiones en función de la intención
+      comunicativa del discurso oral o escrito en el que aparecen, con la debida atención
+      al léxico específico del español de Canarias y a la elección de un vocabulario
+      adecuado y respetuoso con la diferencia de sexos y la igualdad de derechos y
+      deberes entre las personas, utilizando el apoyo de diccionarios y otras fuentes
+      de consulta en formato papel y digital, todo ello con el fin de enriquecer el
+      vocabulario activo y mejorar la comunicación. Con este criterio se persigue
+      constatar si los alumnos y las alumnas muestran, en diversidad de situaciones
+      comunicativas orales y escritas, una mejora en la comprensión del significado
+      de las palabras y expresiones, así como un enriquecimiento de su vocabulario
+      activo en sus producciones. Para ello, se verificará si son capaces de explicar
+      y aplicar, en textos cotidianos de ámbito académico o social, los procedimientos
+      de formación de las palabras diferenciando entre raíz y afijos y explicando
+      su significado y procedencia de prefijos y sufijos, con especial atención a
+      aquellos de origen griego y latino, para ayudarse en la deducción del significado
+      de palabras desconocidas, reconocer las posibilidades de la creación léxica
+      y la evolución etimológica del vocabulario de la lengua castellana. Asimismo,
+      se constatará si explican con propiedad el significado de palabras o expresiones,
+      diferenciando su uso denotativo y connotativo y relacionándolo con la intención
+      comunicativa del emisor y también reconocen, analizan e interpretan las relaciones
+      semánticas entre las palabras (sinonimia, antonimia, hiperonimia, polisemia
+      y homonimia) como procedimientos de cohesión textual, aplicando estos conocimientos
+      a la mejora de sus mensajes orales y terminología adecuados en contextos comunicativos
+      que exigen un uso formal y especializado de la lengua, evitando el uso de coloquialismos,
+      imprecisiones o expresiones clichés, y procurando la debida atención al léxico
+      específico del español de Canarias y a la elección de un vocabulario adecuado
+      y respetuoso con la diferencia de sexos y la igualdad de derechos y       y
+      deberes.
+    levels:
+      insuficiente: Explica con imprecisión y dificultad, los procedimientos de formación
+        de las palabras y el significado y procedencia de prefijos y sufijos. De esta
+        manera, rara vez define con propiedad, incluso en previsibles, el significado
+        de palabras o diferenciando su denotativo y connotativo, y relacionándolo
+        con la intención comunicativa del emisor; muestra dificultades para deducir
+        el significado de palabras demostrando por tanto que no conoce suficientemente
+        la evolución etimológica del vocabulario de la lengua castellana. Asimismo,
+        solo es capaz de analizar relaciones semánticas entre las palabras como procedimientos
+        de cohesión textual cuando estas son muy evidentes. Aplica estos conocimientos
+        con poco interés y conciencia superficial para enriquecer su vocabulario activo
+        y para seleccionar el léxico y la terminología adecuados en contextos comunicativos
+        que exigen un uso formal y especializado de la lengua, así como para mejorar
+        tanto la comprensión como la propia producción de textos orales y escritas,
+        de modo que incurre en el uso de coloquialismos, clichés. Además, en relación
+        al uso del léxico específico del español de Canarias, así como de un vocabulario
+        adecuado y respetuoso con la diferencia de sexos y la igualdad de derechos
+        deberes entre las personas, no siempre resulta correcto y pertinente.
+      suficiente_bien: cierta Explica sin dificultad destacable pero de forma poco
+        precisa los procedimientos de formación de las palabras y el significado y
+        procedencia de prefijos y sufijos. De esta manera, contextos siempre que el
+        contexto sea previsible, define con expresiones, propiedad el significado
+        de uso palabras o expresiones, diferenciando su uso denotativo y connotativo,
+        y relacionándolo con la intención comunicativa del emisor; y casi siempre
+        deduce el desconocidas, significado de palabras desconocidas, demostrando
+        que conoce suficientemente la evolución etimológica del vocabulario de la
+        lengua castellana. Asimismo, analiza, las aunque solo a partir de modelos
+        similares, relaciones semánticas entre las palabras como procedimientos de
+        cohesión textual. Aplica estos conocimientos con cierto interés y deliberación
+        para enriquecer su vocabulario activo y para seleccionar el léxico y la terminología
+        adecuados en contextos comunicativos que exigen un uso formal y especializado
+        de la lengua, así como para mejorar tanto la comprensión como la propia producción
+        de textos orales y escritas, evitando casi siempre el uso de coloquialismos,
+        clichés. Además, utiliza, generalmente por propia iniciativa pero no siempre
+        de forma correcta y pertinente , léxico específico del español de Canarias,
+        así como un vocabulario adecuado y respetuoso con la diferencia de sexos y
+        la igualdad de derechos y deberes entre las personas.
+      notable: Explica con precisión y fluidez los procedimientos de formación de
+        las palabras y el significado y procedencia de prefijos y sufijos. De esta
+        manera, en la mayor parte de los contextos, define con propiedad el significado
+        de palabras o diferenciando su denotativo y connotativo, y relacionándolo
+        con la intención comunicativa del emisor; y deduce el significado de palabras
+        demostrando que convenientemente evolución etimológica del vocabulario de
+        la lengua castellana. Asimismo, analiza con agudeza las relaciones semánticas
+        entre las palabras como procedimientos las cohesión textual. Aplica estos
+        conocimientos con bastante interés y deliberación para enriquecer su vocabulario
+        activo y para seleccionar el léxico y la terminología adecuados en comunicativos
+        que exigen un uso formal y especializado de la lengua, así como para mejorar
+        tanto la comprensión como la propia producción de textos orales y escritas,
+        evitando siempre el uso de coloquialismos, imprecisiones o expresiones clichés.
+        Además, utiliza por propia iniciativa con corrección y pertinencia de Canarias,
+        así como un vocabulario adecuado y respetuoso con la diferencia de sexos y
+        la igualdad de derechos y deberes entre las personas.
+      sobresaliente: Explica con total precisión y fluidez destacable los procedimientos
+        de formación de las palabras y el significado y procedencia de prefijos y
+        sufijos. De esta manera, en cualquier contexto, define con propiedad el significado
+        de expresiones, palabras o expresiones, uso diferenciando su uso denotativo
+        y connotativo, y relacionándolo con la intención comunicativa del emisor;
+        y deduce el significado de desconocidas, palabras desconocidas, conoce demostrando
+        que conoce la destacadamente la evolución etimológica del vocabulario de la
+        lengua castellana. Asimismo, analiza con sistematicidad las relaciones semánticas
+        entre las palabras como procedimientos de de cohesión textual. Aplica estos
+        conocimientos con interés y conciencia crítica para enriquecer su vocabulario
+        activo y para seleccionar el léxico y la terminología adecuados en contextos
+        contextos comunicativos que exigen un uso formal y especializado de la lengua,
+        así como para mejorar tanto la comprensión como la propia producción de textos
+        orales y escritas, evitando siempre el uso de coloquialismos, imprecisiones
+        o expresiones clichés. Además, utiliza por propia iniciativa y y con corrección,
+        pertinencia y asertividad léxico específico como un vocabulario adecuado y
+        respetuoso con la diferencia de sexos y la igualdad de derechos y deberes
+        entre las personas.
+  - id: '8'
+    name: Criterio 8
+    description: Explicar, a partir de textos orales y escritos, una visión global
+      de la situación del español en el mundo, a partir del conocimiento de sus orígenes
+      y evolución histórica, incluyendo la situación del español en el ámbito digital,
+      y de la descripción de sus    principales     características    y     rasgos
+      diferenciales, con la finalidad de comprender y valorar esta presencia y sus
+      variantes en el español de América como riqueza patrimonial y cultural. Reconocer
+      y valorar, en el uso comunicativo, la norma culta del español hablado en Canarias,
+      a partir del conocimiento razonado de sus características fónicas, gramaticales
+      y léxicas, comparando y apreciando los lazos lingüísticos y culturales     existentes    entre     Canarias      e
+      Hispanoamérica. Con este criterio se constatará si el alumnado describe la situación
+      actual de la lengua española en el mundo, diferenciando los usos específicos
+      de la lengua en la red digital, y mostrando un conocimiento de los orígenes
+      históricos del español en América y sus principales áreas geográficas, reconociendo
+      en ejemplos orales o escritos algunos de sus rasgos característicos y valorando
+      positivamente sus variantes, a fin de prescindir de ideas preconcebidas en torno
+      a la distribución dialectal del idioma y valorar la norma culta canaria como
+      variedad de prestigio, inserta en el mismo proceso histórico y cultural, evitando
+      así alternancias, incorrecciones e inseguridades en su uso formal.
+    levels:
+      insuficiente: Comete incorrecciones y muestra escasa fluidez en descripción
+        de las principales características y los rasgos diferenciales del español,
+        así como los orígenes y la evolución histórica de esta lengua en el mundo,
+        su situación actual y los usos específicos de la lengua en la red digital.
+        Asimismo, reconoce con algunos de los característicos de variedades del español
+        de América y sus principales áreas geográficas, incoherencias en explicación
+        de sus lazos lingüísticos, históricos culturales con el español hablado en
+        Canarias. Incurre en errores en reconocimiento de características gramaticales
+        y léxicas del español hablado en Canarias, y demuestra así ingenuidad en la
+        la valoración de la norma culta canaria como variedad de prestigio, de manera
+        que comete con cierta frecuencia errores de alternancia, y otras incorrecciones
+        e inseguridades en su uso formal.
+      suficiente_bien: algunas Describe sin incorrecciones importantes y con bastante
+        la fluidez las principales características y los rasgos diferenciales del
+        español, así como los orígenes y la evolución histórica de esta lengua en
+        el mundo, su situación actual y los usos específicos de la lengua en la red
+        digital. Asimismo, reconoce algunos de los rasgos dificultad característicos
+        de las rasgos variedades del español de las América y sus principales áreas
+        geográficas, explicando con bastante coherencia además mostrando sus lazos
+        lingüísticos, la históricos y culturales con el español hablado en Canarias.
+        y Reconoce sin imprecisiones importantes las características fónicas, gramaticales
+        y léxicas el del español hablado en las Canarias, valorando con cierta fónicas,
+        conciencia la norma culta canaria como variedad de prestigio, de manera que
+        normalmente evita alternancias, incorrecciones e inseguridades en su uso formal.
+      notable: Describe con corrección y fluidez las características y los rasgos
+        diferenciales del español, así como los orígenes y la evolución histórica
+        de esta lengua en el mundo, su situación actual y los usos específicos de
+        la lengua en la red digital. reconoce algunos de los rasgos característicos
+        de variedades del español de América y sus principales áreas geográficas,
+        explicando con coherencia además sus lazos lingüísticos, históricos culturales
+        con el español hablado en Canarias. Reconoce con bastante precisión las características
+        gramaticales y léxicas del español hablado en Canarias, valorando con deliberación
+        la norma culta canaria como variedad de prestigio, de manera que evita casi
+        siempre alternancias, incorrecciones e inseguridades en su uso formal.
+      sobresaliente: Describe con corrección y principales fluidez destacables las
+        principales características y los rasgos diferenciales del español, así como
+        los orígenes y la evolución histórica de esta lengua en el mundo, su situación
+        actual y los usos específicos de la lengua en la Asimismo, red digital. Asimismo,
+        reconoce algunos de los rasgos las característicos de las variedades del español
+        de América y sus principales áreas geográficas, explicando con propiedad además
+        sus lazos y lingüísticos, históricos y culturales con el español hablado en
+        Canarias. Reconoce de forma precisa las fónicas, características fónicas,
+        gramaticales y léxicas del español hablado en Canarias, valorando con conciencia
+        crítica la norma culta canaria como variedad de prestigio, de manera que evita
+        siempre alternancias, incorrecciones e inseguridades en su uso formal.
+  - id: '9'
+    name: Criterio 9
+    description: Leer, analizar e interpretar críticamente fragmentos u obras completas
+      de la literatura española, incluida la canaria, representativas de los principales
+      movimientos literarios del siglo XX hasta nuestros días, con la adecuada atención
+      a las muestras creadas por escritoras representativas de las distintas épocas,
+      reconociendo e interpretando sus características temáticas y formales, relacionándolas
+      con el contexto histórico, social, artístico y cultural, con el movimiento y
+      el género literario al que pertenece, además de con la trayectoria y estilo
+      del autor o la autora, constatando asimismo la evolución histórica de los temas
+      y las formas. Con este criterio se pretende evaluar la capacidad del alumnado
+      para analizar e interpretar críticamente obras literarias significativas de
+      la literatura española del siglo XX hasta la actualidad, con la debida atención
+      a las muestras creadas por escritoras representativas de las distintas épocas
+      y a los autores y a las autoras canarios, en su contexto histórico, social,
+      artístico y cultural, relacionando el contenido y las formas de expresión con
+      la trayectoria y el estilo de su autor o autora, su género y el movimiento literario
+      al que pertenece, comparándolas a su vez con otras obras de la época o de épocas
+      diferentes que presenten algún vínculo con ellas, constatando la presencia de
+      determinados temas y formas, y la evolución en la manera de tratarlos. Para
+      ello el alumnado, participará en situaciones comunicativas, propias del ámbito
+      académico, personal y social (debates, mesas redondas…) que favorezcan el intercambio
+      de opiniones y perspectivas para retroalimentar las propias, y realizará trabajos
+      personales, por escrito, de interpretación y valoración, con coherencia y corrección,
+      propios del ámbito académico y social (comentarios de texto, estudios comparativos…).
+      Todo ello con la intención de que el alumnado, realice el estudio cronológico
+      de las obras seleccionadas, además de desarrollar y fortalecer su espíritu crítico
+      y su personalidad literaria
+    levels:
+      insuficiente: Analiza y valora críticamente con claras imprecisiones y ciertas
+        destacables obras literarias representativas de la literatura española del
+        siglo XX hasta la actualidad, de manera que casi no las relaciona con el contexto
+        histórico, social, artístico y cultural en el que surgen; con el movimiento
+        y género al que pertenecen; y con la trayectoria y el estilo de su autor o
+        autora. Además, de inadecuada compara estas obras con otras de la misma época
+        o de otras diferentes, con las que presenten algún vínculo y sin constatar
+        la presencia de determinados temas y formas, así como la evolución de los
+        mismos. Para ello, participa de manera muy poco activa y con conciencia superficial
+        en situaciones comunicativas que favorecen la emisión de juicios básicos y
+        el intercambio de opiniones, y elabora trabajos de diversa índole con dificultades
+        en lo que a coherencia y corrección se generalmente inacabados o con imperfecciones
+        notables.
+      suficiente_bien: Analiza y valora críticamente sin imprecisiones dificultades
+        importantes y sin grandes dificultades obras literarias representativas de
+        la literatura española del siglo XX hasta la actualidad, de manera que las
+        relaciona con el contexto histórico, social, artístico y cultural en el que
+        surgen; con el movimiento y género al que pertenecen; y con la trayectoria
+        y el estilo de su autor o autora. forma Además, de forma aceptable compara
+        estas obras con otras de la misma época o de otras diferentes, con las que
+        presenten algún vínculo y constata la presencia de determinados temas y formas,
+        así como la evolución de los mismos. Para ello, participa con cierta deliberación
+        aunque no siempre de manera activa en situaciones comunicativas que favorecen
+        la emisión de juicios sencillos y el intercambio de opiniones., y elabora
+        trabajos de diversa índole sin dificultades refiere, importantes en lo que
+        a coherencia y corrección se refiere, presentando un desarrollo y un acabado
+        aceptable.
+      notable: Analiza y valora críticamente con bastante precisión y fluidez obras
+        representativas de la literatura española del siglo XX hasta la actualidad,
+        de manera que las relaciona con el contexto histórico, social, artístico y
+        cultural en el que surgen; con el movimiento y género al que pertenecen; y
+        con la trayectoria y el estilo de su autor o autora. Además, de manera bastante
+        pertinente compara estas obras con otras de la misma época o de otras diferentes,
+        con las que presenten algún vínculo y constata la presencia de determinados
+        temas y formas, así como la evolución de los mismos. Para ello, participa
+        de forma bastante activa y con deliberación en situaciones comunicativas que
+        favorecen la emisión de juicios de cierta complejidad y el intercambio de
+        opiniones, y elabora trabajos de diversa índole coherencia y corrección, que
+        presentan un desarrollo y un cavado adecuado.
+      sobresaliente: Analiza en profundidad y con precisión y valora críticamente
+        literarias textos representativas de la literatura española del siglo XX hasta
+        la actualidad, de manera que las relaciona con el contexto histórico, social,
+        artístico y cultural en el que surgen; con el movimiento y género al que pertenecen;
+        y con la trayectoria y el estilo de su autor o autora. Además, de manera pertinente
+        y autónoma, compara estas obras con otras de la misma época o de otras diferentes,
+        con las que presenten algún vínculo y constata la presencia de determinados
+        temas y formas, así como la evolución de los mismos. Para ello, participa
+        de forma activa y con conciencia crítica en situaciones comunicativas que
+        favorecen la emisión de juicios complejos y el intercambio de opiniones, y
+        elabora trabajos de diversa con índole con coherencia y corrección, que presentan
+        un desarrollo y un acabado destacable.
+  - id: '10'
+    name: Criterio 10
+    description: Elaborar textos escritos, de diversa índole, en formato papel o digital,
+      vinculados a un tema, a una obra, o a un autor o una autora de la literatura
+      del siglo XX hasta nuestros días, a partir de la consulta de fuentes diversas,
+      adoptando un punto de vista crítico, en los que además deberán plasmar los conocimientos
+      literarios y artísticos adquiridos a partir de su experiencia lectora, cultural
+      y personal. Con este criterio se pretende comprobar la capacidad del alumnado
+      para elaborar textos escritos de diversa índole (trabajos y presentaciones académicas,
+      desarrollo de un tema, textos literarios…) presentados en soporte papel o digital,
+      vinculados a un tema, una obra o un autor o una autora de la literatura del
+      siglo XX hasta nuestros días, consultando fuentes diversas y adoptando un punto
+      de vista crítico y personal, utilizando con solvencia y responsabilidad las
+      tecnologías de la información y la comunicación, extrayendo la información relevante
+      para ampliar conocimientos sobre el tema, exponiendo las ideas con rigor, claridad,
+      coherencia y corrección y aplicando los conocimientos literarios y artísticos
+      adquiridos, en los que no solo se refleje su experiencia lectora, su bagaje
+      cultural y personal, sino también la vinculación de la literatura con el resto
+      de las manifestaciones artísticas, poniendo de manifiesto la importancia de
+      la lectura y la escritura como fuente de conocimiento y de placer, como forma
+      de creación y de comunicación de ideas y de emociones.
+    levels:
+      insuficiente: Elabora textos escritos básicos de diversa índole, vinculados
+        a un tema, a obras o a autores o autoras de la literatura del siglo XX hasta
+        la actualidad, en los que rara vez adopta un punto de vista personal y crítico,
+        utilizando con solvencia y con responsabilidad las TIC y consultando apenas
+        fuentes diversas. De esta manera, extrae con imprecisiones la información
+        relevante y expone las ideas sin rigor, con escasa claridad y incorrecciones
+        importantes en lo que a coherencia y corrección se refiere. Además, ocasionalmente
+        aplica los conocimientos literarios y artísticos adquiridos, y no refleja
+        en sus producciones su experiencia lectora y su bagaje cultural y personal.
+      suficiente_bien: Elabora textos escritos sencillos de diversa índole, vinculados
+        a un tema, a obras o a autores o autoras de la literatura del siglo XX hasta
+        la actualidad, en los frecuentemente adopta un escasa punto de vista personal
+        y poca crítico, utilizando con cierta solvencia y responsabilidad las TIC
+        y consultando como usuario básico fuentes diversas. De esta manera, extrae
+        de forma aceptable la información relevante y expone cometiendo las ideas
+        con cierto rigor y claridad cometiendo incorrecciones en lo que a coherencia
+        y corrección se refiere. Además, aplica de forma aceptable y con algunas aportaciones
+        creativas los conocimientos literarios y adquiridos, reflejando en sus producciones
+        su experiencia lectora y su bagaje cultural y personal.
+      notable: Elabora textos escritos de cierta complejidad de diversa índole, vinculados
+        a un tema, obras o a autores o autoras de la literatura del siglo XX hasta
+        que la actualidad, en los que regularmente adopta un punto de vista personal
+        y crítico, utilizando con solvencia y responsabilidad las TIC y consultando
+        de forma eficaz fuentes diversas. De esta manera, extrae la información relevante
+        y expone las ideas con cierto rigor y destacable claridad, coherencia corrección.
+        Además, bastante precisión y cierta creatividad, aplica conocimientos literarios
+        y artísticos adquiridos, reflejando en sus producciones su experiencia lectora
+        y su bagaje artísticos cultural y personal.
+      sobresaliente: Elabora textos escritos complejos de diversa índole, a vinculados
+        a un tema, a obras o a autores o autoras de la literatura del siglo XX hasta
+        la actualidad, en los que siempre adopta un punto de vista personal y crítico,
+        utilizando bastante con destacable solvencia y responsabilidad las TIC y consultando
+        con versatilidad fuentes diversas. De esta manera, extrae la información relevante
+        y expone las ideas con rigor, notable claridad y y con total coherencia y
+        con corrección. Además, con precisión y creatividad aplica los los conocimientos
+        literarios y artísticos adquiridos, reflejando en sus producciones su experiencia
+        lectora y su bagaje cultural y personal.

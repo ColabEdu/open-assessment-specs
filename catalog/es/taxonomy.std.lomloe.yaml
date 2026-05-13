@@ -1,0 +1,221 @@
+apiVersion: colabedu.ai/v1beta1
+kind: Taxonomy
+metadata:
+  id: std.es.lomloe
+  type: standard
+  active: true
+  name: LOMLOE
+  countryRef: loc.es
+spec:
+  levels:
+    - id: lvl.es.bach.1
+      name: Bachillerato 1
+      active: true
+    - id: lvl.es.bach.2
+      name: Bachillerato 2
+      active: true
+    - id: lvl.es.eso.1
+      name: ESO 1
+      active: true
+    - id: lvl.es.eso.2
+      name: ESO 2
+      active: true
+    - id: lvl.es.eso.3
+      name: ESO 3
+      active: true
+    - id: lvl.es.eso.4
+      name: ESO 4
+      active: true
+  subjects:
+    - id: subj.es.lcl
+      name: Lengua Castellana y Literatura
+      active: true
+      applicableLevels: [lvl.es.eso.1, lvl.es.eso.2, lvl.es.eso.3]
+    - id: subj.es.lenguaextranjera(ingles)
+      name: Lengua Extranjera (Inglés)
+      active: true
+      applicableLevels: [lvl.es.eso.2]
+    - id: subj.es.segundalenguaextranjera
+      name: Segunda Lengua Extranjera
+      active: true
+      applicableLevels: [lvl.es.bach.2, lvl.es.eso.1, lvl.es.eso.3, lvl.es.eso.4]
+    - id: subj.es.filosofia
+      name: Filosofía
+      active: true
+      applicableLevels: [lvl.es.bach.1, lvl.es.eso.4]
+    - id: subj.es.musica
+      name: Música
+      active: true
+      applicableLevels: [lvl.es.eso.1, lvl.es.eso.2, lvl.es.eso.3, lvl.es.eso.4]
+    - id: subj.es.educacionfisica
+      name: Educación Física
+      active: true
+      applicableLevels: [lvl.es.bach.1, lvl.es.eso.1, lvl.es.eso.2, lvl.es.eso.4]
+    - id: subj.es.bioestadistica
+      name: Bioestadística
+      active: true
+      applicableLevels: [lvl.es.bach.2]
+    - id: subj.es.artesaplicadasalaescultura
+      name: Artes Aplicadas a la Escultura
+      active: true
+      applicableLevels: [lvl.es.bach.2]
+    - id: subj.es.fisicayquimica
+      name: Física y Química
+      active: true
+      applicableLevels: [lvl.es.bach.1, lvl.es.eso.3]
+    - id: subj.es.lamitologiaylasartes
+      name: La Mitología y las Artes
+      active: true
+      applicableLevels: [lvl.es.bach.2]
+    - id: subj.es.literaturacanaria
+      name: Literatura Canaria
+      active: true
+      applicableLevels: [lvl.es.bach.2]
+    - id: subj.es.digitalizacion
+      name: Digitalización
+      active: true
+      applicableLevels: [lvl.es.eso.4]
+    - id: subj.es.quimica
+      name: Química
+      active: true
+      applicableLevels: [lvl.es.bach.2]
+    - id: subj.es.culturaaudiovisual
+      name: Cultura Audiovisual
+      active: true
+      applicableLevels: [lvl.es.bach.1]
+    - id: subj.es.artesescenicas
+      name: Artes Escénicas
+      active: true
+      applicableLevels: [lvl.es.bach.2]
+    - id: subj.es.analisismusical
+      name: Análisis Musical
+      active: true
+      applicableLevels: [lvl.es.bach.1, lvl.es.bach.2]
+    - id: subj.es.latin
+      name: Latín
+      active: true
+      applicableLevels: [lvl.es.bach.2, lvl.es.eso.4]
+    - id: subj.es.fisica
+      name: Física
+      active: true
+      applicableLevels: [lvl.es.bach.2]
+    - id: subj.es.iniciacionalaastronomia
+      name: Iniciación a la Astronomía
+      active: true
+      applicableLevels: [lvl.es.bach.2]
+    - id: subj.es.diseño
+      name: Diseño
+      active: true
+      applicableLevels: [lvl.es.bach.2]
+    - id: subj.es.educacionplastica
+      name: Educación Plástica, Visual y Audiovisual
+      active: true
+      applicableLevels: [lvl.es.eso.2, lvl.es.eso.3]
+    - id: subj.es.primeralenguaextranjera
+      name: Primera Lengua Extranjera
+      active: true
+      applicableLevels: [lvl.es.bach.1, lvl.es.bach.2]
+    - id: subj.es.geologia
+      name: Geología
+      active: true
+      applicableLevels: [lvl.es.bach.2]
+    - id: subj.es.cienciasdelatierrayelmedioambiente
+      name: Ciencias de la Tierra y el Medio Ambiente
+      active: true
+      applicableLevels: [lvl.es.bach.2]
+    - id: subj.es.biologiaygeologia
+      name: Biología y Geología
+      active: true
+      applicableLevels: [lvl.es.eso.1, lvl.es.eso.3, lvl.es.eso.4]
+    - id: subj.es.historiadeespaña
+      name: Historia de España
+      active: true
+      applicableLevels: [lvl.es.bach.2]
+    - id: subj.es.geografiaehistoria
+      name: Geografía e Historia
+      active: true
+      applicableLevels: [lvl.es.eso.1, lvl.es.eso.2, lvl.es.eso.3, lvl.es.eso.4]
+    - id: subj.es.expresionartistica
+      name: Expresión Artística
+      active: true
+      applicableLevels: [lvl.es.eso.4]
+    - id: subj.es.tecnologiaindustrial
+      name: Tecnología Industrial
+      active: true
+      applicableLevels: [lvl.es.bach.1, lvl.es.bach.2]
+    - id: subj.es.historiadelmundocontemporaneo
+      name: Historia del Mundo Contemporáneo
+      active: true
+      applicableLevels: [lvl.es.bach.1]
+    - id: subj.es.economiayemprendimiento
+      name: Economía y Emprendimiento
+      active: true
+      applicableLevels: [lvl.es.eso.4]
+    - id: subj.es.tecnicasdeexpresiongraficoplastica
+      name: Técnicas de Expresión Gráfico-Plástica
+      active: true
+      applicableLevels: [lvl.es.bach.2]
+    - id: subj.es.historiadelarte
+      name: Historia del Arte
+      active: true
+      applicableLevels: [lvl.es.bach.2]
+    - id: subj.es.griego
+      name: Griego
+      active: true
+      applicableLevels: [lvl.es.bach.1]
+    - id: subj.es.matematicasaplicadasalascienciassociales
+      name: Matemáticas Aplicadas a las Ciencias Sociales
+      active: true
+      applicableLevels: [lvl.es.bach.1]
+    - id: subj.es.fotografia
+      name: Fotografía
+      active: true
+      applicableLevels: [lvl.es.bach.2]
+    - id: subj.es.educacionenvalorescivicosyeticos
+      name: Educación en Valores Cívicos y Éticos
+      active: true
+      applicableLevels: [lvl.es.eso.1]
+    - id: subj.es.historiadelafilosofia
+      name: Historia de la Filosofía
+      active: true
+      applicableLevels: [lvl.es.bach.2]
+    - id: subj.es.medionaturalcanario
+      name: Medio Natural Canario
+      active: true
+      applicableLevels: [lvl.es.bach.2]
+    - id: subj.es.anatomiaaplicada
+      name: Anatomía Aplicada
+      active: true
+      applicableLevels: [lvl.es.bach.1]
+    - id: subj.es.economia
+      name: Economía
+      active: true
+      applicableLevels: [lvl.es.bach.1]
+    - id: subj.es.historiaygeografiadecanarias
+      name: Historia y Geografía de Canarias
+      active: true
+      applicableLevels: [lvl.es.eso.3]
+    - id: subj.es.psicologia
+      name: Psicología
+      active: true
+      applicableLevels: [lvl.es.bach.2]
+    - id: subj.es.volumen
+      name: Volumen
+      active: true
+      applicableLevels: [lvl.es.bach.1]
+    - id: subj.es.matematicas
+      name: Matemáticas
+      active: true
+      applicableLevels: [lvl.es.bach.1, lvl.es.eso.1]
+    - id: subj.es.antropologiaysociologia
+      name: Antropología y Sociología
+      active: true
+      applicableLevels: [lvl.es.bach.2]
+    - id: subj.es.tecnicasdelaboratorio
+      name: Técnicas de Laboratorio
+      active: true
+      applicableLevels: [lvl.es.bach.2]
+    - id: subj.es.economiapersonalysocial
+      name: Economía Personal y Social
+      active: true
+      applicableLevels: [lvl.es.eso.3]

@@ -1,0 +1,14 @@
+apiVersion: colabedu.ai/v1beta1
+kind: AssessmentItem
+metadata:
+  id: example.c2.ordering.sentence
+  title: "Ejemplo: Ordenación de Oración"
+spec:
+  recipe_ref: global.c1.ordering.v1
+  context:
+    description: "Ordena los fragmentos para formar una oración con sentido lógico."
+  content:
+    widget_params:
+      taskId: "ordering_sentence_001"
+      instruction: "Arrastra los fragmentos para ordenarlos correctamente."
+      fragments: ["en el parque", "El perro", "juega", "con la pelota"]
