@@ -1,0 +1,36 @@
+apiVersion: colabedu.ai/v1beta1
+kind: Taxonomy
+metadata:
+  id: std.us.ccss
+  type: standard
+  active: true
+  name: Common Core State Standards (CCSS)
+  countryRef: loc.us
+spec:
+  levels:
+    - id: lvl.us.primary
+      name: Primary School
+      active: true
+    - id: lvl.us.middle
+      name: Middle School
+      active: true
+    - id: lvl.us.high
+      name: High School
+      active: true
+  subjects:
+    - id: subj.us.math
+      name: Mathematics
+      active: true
+      applicableLevels: [lvl.us.primary, lvl.us.middle, lvl.us.high]
+    - id: subj.us.ela
+      name: English Language Arts
+      active: true
+      applicableLevels: [lvl.us.primary, lvl.us.middle, lvl.us.high]
+    - id: subj.us.world_languages
+      name: World Languages
+      active: true
+      applicableLevels: [lvl.us.middle, lvl.us.high]
+    - id: subj.us.spanish_language_arts
+      name: Spanish Language Arts
+      active: true
+      applicableLevels: [lvl.us.primary, lvl.us.middle, lvl.us.high]

@@ -1,0 +1,31 @@
+apiVersion: colabedu.ai/v1beta1
+kind: Rubric
+metadata:
+  name: us.ca.c0.wls.presentational.v1
+  displayName: Presentational Communication Rubric
+  description: Rubric for Presentational Communication based on California World Languages
+    Standards 2019.
+  tags:
+  - World Languages
+  - California
+  - WLS
+  - Presentational Communication
+  version: 1.0.0
+spec:
+  taxonomyRef: us.actfl_proficiency_guidelines.v1
+  subject: World Languages
+  educationLevel: K-12
+  criteria:
+  - id: presentational-performance
+    name: Presentational Communication
+    description: Performance expectations for Presentational Communication.
+    levels:
+      novice_low: ''
+      novice_mid: Present information about self.
+      novice_high: ''
+      intermediate_low: ''
+      intermediate_mid: Present information on familiar topics.
+      intermediate_high: ''
+      advanced_low: ''
+      advanced_mid: Deliver detailed presentations.
+      advanced_high: ''

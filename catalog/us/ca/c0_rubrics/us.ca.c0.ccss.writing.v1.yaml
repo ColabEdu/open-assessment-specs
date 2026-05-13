@@ -1,0 +1,167 @@
+apiVersion: colabedu.ai/v1beta1
+kind: Rubric
+metadata:
+  name: us.ca.c0.ccss.writing.v1
+  displayName: CCSS-S Writing Standards (Grade 9-10) - Argumentative Writing
+  description: Evaluation criteria for argumentative writing based on Common Core
+    State Standards in Spanish for Grades 9-10.
+  tags:
+  - CCSS-S
+  - Writing
+  - Argumentative
+  - Grade 9-10
+  - Spanish
+  version: 1.0.0
+spec:
+  taxonomyRef: us.common_core.v1
+  subject: Writing
+  educationLevel: Grade 9-10
+  criteria:
+  - id: w.9-10.1
+    name: Argumentación general
+    description: Escribir argumentos para apoyar afirmaciones en un análisis de temas
+      o textos sustantivos.
+    levels:
+      novice_low: Falla consistentemente en establecer y desarrollar argumentos, o
+        la escritura carece de una estructura argumentativa coherente.
+      novice_mid: Intenta establecer argumentos, pero son débiles, poco claros o carecen
+        de apoyo significativo. La organización es mínima o confusa.
+      novice_high: Presenta argumentos básicos con cierto apoyo, aunque pueden ser
+        inconsistentes o no estar completamente desarrollados. La estructura es discernible
+        pero con fallas.
+      intermediate_low: Establece argumentos razonablemente claros con algún desarrollo
+        y evidencia. La estructura argumentativa es generalmente reconocible, pero
+        puede haber inconsistencias.
+      intermediate_mid: Construye argumentos claros y con un desarrollo adecuado,
+        apoyados por evidencia relevante. La organización es lógica, aunque puede
+        tener puntos de mejora.
+      intermediate_high: Desarrolla argumentos sólidos y bien estructurados, con afirmaciones
+        claras y un apoyo convincente. La organización es efectiva y fácil de seguir.
+      advanced_low: Presenta argumentos perspicaces y complejamente desarrollados,
+        con un uso sofisticado de evidencia y una estructura argumentativa pulcra.
+      advanced_mid: Elabora argumentos excepcionalmente claros, convincentes y exhaustivos,
+        demostrando un profundo análisis y un dominio de la estructura argumentativa.
+      advanced_high: La argumentación es magistral, original y altamente persuasiva,
+        con un análisis crítico sobresaliente y una estructura impecable.
+  - id: w.9-10.1.a
+    name: Claridad de las afirmaciones
+    description: Presentar afirmaciones precisas y claras.
+    levels:
+      novice_low: Las afirmaciones son ausentes, extremadamente vagas, contradictorias
+        o incomprensibles.
+      novice_mid: Las afirmaciones son difíciles de identificar o son confusas e imprecisas.
+      novice_high: Se intentan presentar afirmaciones, pero carecen de precisión o
+        claridad consistente.
+      intermediate_low: Las afirmaciones son generalmente identificables, aunque pueden
+        necesitar más precisión o concisión.
+      intermediate_mid: Las afirmaciones son claras y relativamente precisas.
+      intermediate_high: Las afirmaciones son consistentemente precisas, claras y
+        bien articuladas.
+      advanced_low: Las afirmaciones son excepcionalmente precisas, matizadas y expresadas
+        con gran claridad.
+      advanced_mid: Las afirmaciones son sobresalientemente precisas, originales y
+        formuladas con una claridad impecable.
+      advanced_high: Las afirmaciones son magistralmente precisas, innovadoras y demuestran
+        una comprensión profunda del tema, presentadas con absoluta claridad.
+  - id: w.9-10.1.b
+    name: Desarrollo de afirmaciones y contraafirmaciones
+    description: Desarrollar las afirmaciones y contraafirmaciones, utilizando un
+      razonamiento válido y evidencia relevante y suficiente.
+    levels:
+      novice_low: No hay desarrollo de afirmaciones o contraafirmaciones; la evidencia
+        es ausente o irrelevante.
+      novice_mid: Se intenta desarrollar, pero la evidencia es escasa, irrelevante
+        o mal utilizada. Faltan contraafirmaciones o son superficiales.
+      novice_high: Las afirmaciones tienen un desarrollo limitado y la evidencia es
+        a menudo genérica o insuficientemente explicada. Las contraafirmaciones son
+        básicas o ausentes.
+      intermediate_low: El desarrollo de afirmaciones es básico pero presente, con
+        alguna evidencia relevante. Las contraafirmaciones, si se incluyen, son simples.
+      intermediate_mid: Las afirmaciones están razonablemente desarrolladas con evidencia
+        pertinente. Las contraafirmaciones son reconocibles y abordadas de forma básica.
+      intermediate_high: Las afirmaciones están bien desarrolladas con razonamiento
+        sólido y evidencia fuerte y relevante. Las contraafirmaciones son consideradas
+        y refutadas eficazmente.
+      advanced_low: El desarrollo es profundo y matizado, con evidencia convincente
+        y análisis perspicaz. Las contraafirmaciones son integradas y respondidas
+        con sofisticación.
+      advanced_mid: Las afirmaciones están excelentemente desarrolladas, con razonamiento
+        impecable y un uso persuasivo y amplio de evidencia. Las contraafirmaciones
+        son manejadas con maestría.
+      advanced_high: El desarrollo es magistral, original y profundamente analítico,
+        con evidencia excepcional y un tratamiento innovador de contraafirmaciones,
+        fortaleciendo el argumento principal.
+  - id: w.9-10.1.c
+    name: Uso de transiciones y cohesión
+    description: Usar palabras, frases y cláusulas para unir secciones principales
+      del texto, crear cohesión y clarificar las relaciones entre las afirmaciones
+      y las razones, entre las razones y la evidencia, y entre las afirmaciones y
+      las contraafirmaciones.
+    levels:
+      novice_low: Ausencia de transiciones; el texto es inconexo y difícil de seguir.
+      novice_mid: Uso esporádico o incorrecto de transiciones; la conexión entre ideas
+        es débil.
+      novice_high: Se usan algunas transiciones, pero a menudo son repetitivas, genéricas
+        o no logran una cohesión fluida.
+      intermediate_low: Las transiciones se utilizan con cierta regularidad, pero
+        la fluidez y la claridad de las relaciones pueden ser inconsistentes.
+      intermediate_mid: Se emplean transiciones de manera adecuada para conectar la
+        mayoría de las secciones principales, creando una cohesión razonable.
+      intermediate_high: Las transiciones son variadas y se usan eficazmente para
+        unir secciones y clarificar las relaciones lógicas, contribuyendo a la fluidez
+        del argumento.
+      advanced_low: El uso de transiciones es sofisticado, creando una cohesión y
+        coherencia excepcionales, y resaltando las relaciones complejas dentro del
+        argumento.
+      advanced_mid: Las transiciones son impecables, variadas y se integran sin esfuerzo,
+        guiando al lector a través de un argumento perfectamente cohesionado y lógicamente
+        estructurado.
+      advanced_high: El control sobre la cohesión y las transiciones es magistral,
+        lo que permite una presentación del argumento de una claridad y fluidez excepcionales.
+  - id: w.9-10.1.d
+    name: Estilo y tono
+    description: Establecer y mantener un estilo formal y un tono objetivo a lo largo
+      del argumento.
+    levels:
+      novice_low: El estilo es consistentemente informal o inapropiado, y el tono
+        es subjetivo o emocional.
+      novice_mid: Hay intentos limitados de formalidad, pero el estilo es a menudo
+        coloquial y el tono puede fluctuar a lo subjetivo.
+      novice_high: Se intenta un estilo formal y un tono objetivo, pero hay inconsistencias
+        significativas o lapsos hacia la informalidad/subjetividad.
+      intermediate_low: El estilo es predominantemente formal y el tono generalmente
+        objetivo, aunque con algunas desviaciones menores.
+      intermediate_mid: Se mantiene un estilo formal y un tono objetivo de manera
+        consistente, con pocas excepciones.
+      intermediate_high: El estilo es formal y pulcro, y el tono objetivo se mantiene
+        de forma consistente y efectiva a lo largo del argumento.
+      advanced_low: El control sobre el estilo formal y el tono objetivo es excelente,
+        contribuyendo a la autoridad y credibilidad del argumento.
+      advanced_mid: El estilo formal es sofisticado y el tono objetivo es impecablemente
+        sostenido, reforzando la persuasión del argumento.
+      advanced_high: El dominio del estilo formal y el tono objetivo es magistral,
+        creando una voz argumentativa autoritaria, convincente y ejemplar.
+  - id: w.9-10.1.e
+    name: Conclusión
+    description: Proporcionar una declaración final o sección concluyente que se derive
+      lógicamente del argumento presentado y refuerce su punto principal.
+    levels:
+      novice_low: No hay conclusión, o la sección final es irrelevante o introduce
+        información nueva.
+      novice_mid: La conclusión es muy breve, repetitiva o no logra resumir o reforzar
+        eficazmente el argumento.
+      novice_high: La conclusión está presente, pero es superficial, se limita a repetir
+        la tesis o no aporta un cierre efectivo.
+      intermediate_low: La conclusión resume los puntos principales, pero podría ser
+        más impactante o derivarse más claramente del argumento.
+      intermediate_mid: La conclusión recapitula los puntos clave y se deriva razonablemente
+        del argumento presentado, proporcionando un cierre adecuado.
+      intermediate_high: La conclusión no solo resume, sino que también refuerza el
+        argumento de manera efectiva, ofreciendo una perspectiva final bien elaborada.
+      advanced_low: La conclusión es perspicaz y proporciona un cierre poderoso y
+        reflexivo que trasciende la mera recapitulación, conectando con implicaciones
+        más amplias.
+      advanced_mid: La conclusión es excepcional, dejando una impresión duradera y
+        consolidando el argumento de manera contundente y original.
+      advanced_high: La conclusión es magistral, ofreciendo una síntesis brillante
+        que eleva el argumento a un nuevo nivel de comprensión y persuasión.

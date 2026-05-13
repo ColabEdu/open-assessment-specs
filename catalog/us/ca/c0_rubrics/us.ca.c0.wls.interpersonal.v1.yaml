@@ -1,0 +1,31 @@
+apiVersion: colabedu.ai/v1beta1
+kind: Rubric
+metadata:
+  name: us.ca.c0.wls.interpersonal.v1
+  displayName: Interpersonal Communication Rubric
+  description: Rubric for Interpersonal Communication based on California World Languages
+    Standards 2019.
+  tags:
+  - World Languages
+  - California
+  - WLS
+  - Interpersonal Communication
+  version: 1.0.0
+spec:
+  taxonomyRef: us.actfl_proficiency_guidelines.v1
+  subject: World Languages
+  educationLevel: K-12
+  criteria:
+  - id: interpersonal-performance
+    name: Interpersonal Communication
+    description: Performance expectations for Interpersonal Communication.
+    levels:
+      novice_low: ''
+      novice_mid: Communicate on very familiar topics.
+      novice_high: ''
+      intermediate_low: ''
+      intermediate_mid: Participate in conversations on familiar topics.
+      intermediate_high: ''
+      advanced_low: ''
+      advanced_mid: Participate fully in conversations on various topics.
+      advanced_high: ''

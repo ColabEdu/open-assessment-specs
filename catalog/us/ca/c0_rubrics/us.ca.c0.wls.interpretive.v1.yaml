@@ -1,0 +1,31 @@
+apiVersion: colabedu.ai/v1beta1
+kind: Rubric
+metadata:
+  name: us.ca.c0.wls.interpretive.v1
+  displayName: Interpretive Communication Rubric
+  description: Rubric for Interpretive Communication based on California World Languages
+    Standards 2019.
+  tags:
+  - World Languages
+  - California
+  - WLS
+  - Interpretive Communication
+  version: 1.0.0
+spec:
+  taxonomyRef: us.actfl_proficiency_guidelines.v1
+  subject: World Languages
+  educationLevel: K-12
+  criteria:
+  - id: interpretive-performance
+    name: Interpretive Communication
+    description: Performance expectations for Interpretive Communication.
+    levels:
+      novice_low: ''
+      novice_mid: Identify general topic.
+      novice_high: ''
+      intermediate_low: ''
+      intermediate_mid: Understand main idea.
+      intermediate_high: ''
+      advanced_low: ''
+      advanced_mid: Understand main idea and details.
+      advanced_high: ''

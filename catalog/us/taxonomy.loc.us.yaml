@@ -1,0 +1,28 @@
+apiVersion: colabedu.ai/v1beta1
+kind: Taxonomy
+metadata:
+  id: loc.us
+  type: location_country
+  active: true
+  name: United States
+  flag: 🇺🇸
+  languages: [en-US, es-US]
+spec:
+  regions:
+    - id: loc.us.ca
+      name: California
+      active: true
+      flagAsset: assets/flags/us/ca.svg
+    - id: loc.us.tx
+      name: Texas
+      active: true
+      flagAsset: assets/flags/us/tx.svg
+  orgLevels:
+    - id: org.lvl.us.early_childhood
+      name: Early Childhood
+    - id: org.lvl.us.elementary
+      name: Elementary
+    - id: org.lvl.us.middle_school
+      name: Middle School
+    - id: org.lvl.us.high_school
+      name: High School
